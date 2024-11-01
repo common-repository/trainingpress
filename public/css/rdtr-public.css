@@ -1,0 +1,172 @@
+/**
+ * Plugin stylesheet
+ * @author	Rudra Innnovative Software 
+ * @package	training/public/css/ 
+ * @version	1.0.0
+ */
+
+.rdtr-see-explanation{
+    cursor:pointer;
+    color:blue;
+}
+
+.total_exercise{
+    cursor: default;
+}
+
+.wptr_course-btn .ch-next-mode{
+    padding: 0px 10px;
+    color: #cf3e12;
+    transition: all ease-in 0.2s;
+}
+
+.rdtr-go-to-my-course{
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.rdtr-wrong-answer{
+    color:red;
+    font-weight: bold;
+}
+
+.rdtr-right-answer{
+    color:green;
+    font-weight: bold;
+}
+
+
+.ch-img-upload{
+    max-width: 80px;
+    padding: 9px;
+}
+
+.wptr-rud-wpl-processing:before{
+    background: rgba(0, 0, 0, 0.55) url('loading.gif') no-repeat 50% 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    content: "";
+    z-index: 100000000000000;    
+    height: 100%;
+    width: 100%;      
+} 
+.wptr_course_processing {
+    background: transparent url(loading.gif) no-repeat 50% 50%;
+    top: 250px;
+    left: 50%;
+    position: absolute;
+    content: "";
+    z-index: 999;
+    height: 70px;
+    width: 70px;
+    transform: translateX(-50%);
+} 
+.rdtr-fade-container:after{
+    content: "";
+    background-color: rgba(186, 186, 186, 0.58);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.wptr-rud-wpl-processing{    
+    position: relative;    
+}
+.wpl_content.wptr-rud-wpl-processing:before{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:transparent;
+}
+.single-training div.single-featured-image-header{
+    display: none;
+}
+
+#frmtraininglogin label.error,#frmtrainingsignup label.error{
+    color:red;
+}
+
+.ui-widget-overlay {
+    opacity: 0.5;
+    filter: Alpha(Opacity=50);
+    background-color: black;
+}
+
+.chapter-title{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rdtr-exe-area{
+    padding: 45px;
+}
+
+ul.rdtr-breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.rdtr-breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.rdtr-breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.rdtr-breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.rdtr-breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.wptr_content-section section.blog-author{
+    display: none;
+}
+
+.ch-correct-answer{
+    color:green;
+}
+
+.poll-myProgress {
+    width: 80%;
+    background-color: #ddd;
+    margin-top: 5px;
+}
+
+.poll-myBar {
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.cr-detail{
+    display: none;
+}
+/*09-28-2018*/
+
+.ex-cmpl{
+    background-color: #5cb85c !important;
+    border-color: #4cae4c;
+    cursor: not-allowed;
+}
+
+.rdtr-ul-chapter-ex{
+    display: none;
+}
+
+/*here start*/
+.wptr-rud-collapse-menu {
+
+}
+.wptr-rud-collapse-menu.wptr-rdtr-in{
+    height: auto;
+}

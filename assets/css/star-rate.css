@@ -1,0 +1,147 @@
+
+.comments-rating {
+    border: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.comments-rating label {
+    display: inline-block;
+}
+
+.rating-container {
+    /* remove inline-block whitespace */
+    font-size: 0;
+    /* flip the order so we can use the + and ~ combinators */
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating-container * {
+    font-size: 1.4rem;
+}
+
+.rating-container > input {
+    display: none;
+}
+
+.rating-container > input + label {
+    /* only enough room for the star */
+    min-width: 1em;
+    font-family: 'dashicons';
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 9999px;
+    width: 1em;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0;
+}
+
+.rating-container > input + label:before {
+    display: inline-block;
+    text-indent: -9999px;
+    content: "\f154";
+    color: #888;
+}
+
+.rating-container > input:checked ~ label:before,
+.rating-container > input + label:hover ~ label:before,
+.rating-container > input + label:hover:before {
+    content: "\f155";
+    color: #ffc107;
+    text-shadow: 0 0 1px #333;
+}
+
+.rating-container > .star-cb-clear + label {
+    text-indent: -9999px;
+    width: .5em;
+    margin-left: -.5em;
+}
+
+.rating-container > .star-cb-clear + label:before {
+    width: .5em;
+}
+
+.rating-container:hover > input + label:before {
+    content: "\f154";
+    color: #888;
+    text-shadow: none;
+}
+
+.rating-container:hover > input + label:hover ~ label:before,
+.rating-container:hover > input + label:hover:before {
+    content: "\f155";
+    color: #ffc107;
+    text-shadow: 0 0 1px #333;
+}
+
+.comment-respond .rating-container > .star-cb-clear + label, .comment-respond .rating-container > input + label:before {
+    text-indent: 9999px;
+}
+
+.comment-respond .rating-container > input + label {
+    text-indent: -9999px;
+}
+
+.wpl-rd-btn-danger{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.wpl-rd-btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.wpl-rd-btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.wpl-rd-btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.wpl-rd-btn-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.wpl-rd-btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.wpl-rd-btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+

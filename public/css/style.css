@@ -1,0 +1,5433 @@
+/**
+ * Plugin stylesheet
+ * @author	Rudra Innnovative Software 
+ * @package	training/public/css/ 
+ * @version	1.0.0
+ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|PT+Sans:400,700');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.wptr_main_body,
+.wptr-rud-training-pg{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wptr_main_body label,
+.wptr-rud-training-pg label {
+    font-weight: 400 !important;
+}
+.wptr_html,
+.wptr-rud-training-pg {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size:13px;
+}
+
+.wptr_main_body,
+.wptr-rud-training-pg {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.wptr_main_body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.wptr_main_body a:hover,
+.wptr-rud-training-pg a:hover{
+    text-decoration: none;
+}
+
+.wptr_main_body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wptr_display-none {
+    display: none;
+}
+
+.wptr_text-z-black {
+    color: #525252 !important;
+}
+
+.wptr_row-section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.wptr_html,
+.wptr_main_body {
+    height: 100%;
+    width: 100%;
+}
+
+.wptr_a,
+.wptr_a:hover {
+    text-decoration: none;
+}
+
+.wptr_footer_main,
+.wptr_header,
+.wptr_navmenu {
+    display: block;
+}
+
+.wptr_main_body a:hover {
+    text-decoration: none;
+}
+
+.wptr_row-section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.wptr_MainMenu .wptr_list-group a {
+    text-decoration: none;
+}
+
+.wptr_MainMenu ul.wptr_ul li a {
+    border-bottom: none;
+    border-top: 0;
+    text-decoration: none;
+}
+
+.wptr_MainMenu ul.wptr_ul,
+.wptr_MainMenu ul.wptr_ul li ul {
+    margin-left: 40px;
+    list-style: none;
+}
+
+.wptr_MainMenu ul.wptr_ul li ul li a {
+    padding-right: 2rem;
+    display: block;
+    position: relative;
+}
+
+.wptr_MainMenu ul.wptr_ul li ul li a i.mdi {
+    float: left;
+}
+
+.wptr_MainMenu ul.wptr_ul li ul li a span {
+    display: block;
+    margin-left: 26px;
+}
+
+.wptr_pt-sans {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wptr_montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wptr_categories-section #training-all-courses .wptr_card-box .wptr_card-box-title .wptr_a.wptr_shadow_none {
+    color: #666666;
+    transition: all ease-in-out 0.2s;
+}
+
+.wptr_categories-section .wptr_card-box .wptr_card-box-title a.wptr_a.wptr_shadow_none:hover {
+    color: rgb(17, 85, 204);
+}
+
+.wptr_btn-link {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 1.5rem;
+    font-size: 1.231rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wptr_btn-base {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    border-color: #cf3e12;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wptr_btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.wptr_rounded {
+    border-radius: 50% !important;
+}
+
+.wptr_items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.wptr_dasboard-content-area .wptr_mb-0 {
+    margin-bottom: 0;
+}
+
+.wptr_dasboard-content-area .wptr_mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wptr_pbtm-1 {
+    padding-bottom: 0.25rem;
+}
+
+.wptr_ptop-1 {
+    padding-top: 0.25rem;
+}
+
+.wptr_log-in {
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+
+.wptr_Sign-up {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.wptr_font-bold {
+    font-weight: bold !Important;
+}
+
+.wptr_custom-icon-size {
+    color: #000;
+    font-size: 1.538rem;
+    font-weight: bold;
+}
+
+.wptr_ht-100 {
+    height: 100%;
+}
+
+
+/*common-classes*/
+
+.wptr_hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wptr_clear:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-weight: 300 !important;
+    font-family: 'PT Sans', sans-serif;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-weight: 300 !important;
+    font-family: 'PT Sans', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    font-weight: 300 !important;
+    font-family: 'PT Sans', sans-serif;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-weight: 300 !important;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wptr_t-trans-lowercase {
+    text-transform: lowercase;
+}
+
+.wptr_t-transt-none {
+    text-transform: none;
+}
+
+.wptr_t-trans-uppercase {
+    text-transform: uppercase;
+}
+
+.wptr_t-trans-capitalize {
+    text-transform: capitalize;
+}
+
+.wptr_f-weight-light {
+    font-weight: 300;
+}
+
+.wptr_f-weight-normal {
+    font-weight: 400;
+}
+
+.wptr_f-weight-light-bold {
+    font-weight: 500;
+}
+
+.wptr_f-weight-semi-bold {
+    font-weight: 600;
+}
+
+.wptr_f-weight-bold {
+    font-weight: 700;
+}
+
+.wptr_flt-left {
+    float: left;
+}
+
+.wptr_flt-right {
+    float: right;
+}
+
+.wptr_flt-none {
+    float: none;
+}
+
+.wptr_normal-text {
+    font-size: 16px;
+}
+
+.wptr_txt-gray {
+    color: #4a4a4a;
+}
+
+.wptr_txt-zblack {
+    color: #525252;
+}
+
+.wptr_txt-white {
+    color: #fff;
+}
+
+.wptr_txt-black {
+    color: #000;
+}
+
+.wptr_txt-primary {
+    color: #007bff;
+}
+
+.wptr_text-purple {
+    color: #503eea;
+}
+
+.wptr_bg-black {
+    background: #343a40;
+}
+
+.wptr_baseline-algn {
+    vertical-align: baseline;
+}
+
+.wptr_top-algn {
+    vertical-align: top;
+}
+
+.wptr_middle-algn {
+    vertical-align: middle;
+}
+
+.wptr_bottom-algn {
+    vertical-align: bottom;
+}
+
+.wptr_form-section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.wptr_input-field {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.wptr_input-field>.fControl {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1.154rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #525252;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 4px;
+    height: 3.231rem;
+}
+
+.wptr_ipt-append {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wptr_items-align-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.wptr_ipt-append-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f2f3f5;
+    border: none;
+}
+
+.wptr_input-field>.fControl {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.wptr_light-bg {
+    background-color: #f2f3f5 !important;
+}
+
+.wptr_input-field>.wptr_fControl:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wptr_pad-b-2 {
+    padding-bottom: 0.5rem;
+}
+
+.wptr_pad-t-2 {
+    padding-top: 0.2rem;
+}
+
+.wptr_ml-left {
+    margin-left: 2.3rem;
+}
+
+.wptr_bdr-none {
+    border: none;
+}
+
+.wptr_p-top-3 {
+    padding-top: 1rem;
+}
+
+.wptr_p-btm-3 {
+    padding-bottom: 1rem;
+}
+
+.wptr_pad-4 {
+    padding: 1.5rem;
+}
+
+.wptr_pad-3 {
+    padding: 1rem;
+}
+
+.wptr_pad-2 {
+    padding: 0.5rem;
+}
+
+.wptr_pad-1 {
+    padding: 0.25rem;
+}
+
+.wptr_pbtm-2 {
+    padding-bottom: 0.5rem;
+}
+
+.wptr_ptop-2 {
+    padding-top: 0.5rem;
+}
+
+.wptr_pleft-3 {
+    padding-left: 0.9375rem !important;
+}
+
+.wptr_pright-3 {
+    padding-right: 0.9375rem !important;
+}
+
+.wptr_back-white {
+    background-color: #fff;
+}
+
+.wptr_mleft-xl-4 {
+    margin-left: 1.5rem;
+}
+
+.wptr_mright-xl-4 {
+    margin-left: 1.5rem;
+}
+
+.wptr_navbar-menu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.wptr_navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+}
+
+.wptr_navmenu ul li {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+}
+
+.wptr_navmenu ul li:hover {
+    background-position: bottom center;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.wptr_navmenu ul li a {
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    padding: 0.7rem 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .25s ease-in-out;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.wptr_clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.wptr_navMenubar ul {
+    border: 0;
+    width: 100%;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0rem 0rem;
+}
+
+.wptr_bdr-top {
+    border-top: 1px solid #dee2e6;
+}
+
+.wptr_font-white {
+    color: #fff;
+}
+
+.wptr_btn-button {
+    display: inline-block;
+    font-weight: 800;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    font-size: 1.231rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wptr_btn-bg-red {
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    border-color: #cf3e12;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wptr_pt-8per {
+    padding-top: 8%;
+}
+
+.wptr_fontsize-normal {
+    font-size: 1.231rem;
+    font-weight: 600;
+}
+
+.wptr-rud-training-pg .material-icons.wptr_txt-zblack.wptr_middle-algn {
+    padding-right: 6px;
+}
+
+.wptr_pad-tb-large {
+    padding: 0px 0.9375rem
+}
+
+.wptr_mr-tb-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wptr_inline-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.wptr_inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.wptr_inline-item {
+    display: inline-block;
+}
+
+.wptr_display-flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wptr_justify-end-content {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.wptr_pad-top-btm-3 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.wptr_normalize-icon {
+    font-size: 1.846rem;
+}
+
+.wptr_txt-warning {
+    color: #ffc107;
+}
+
+
+/*-------- page 2 ---------- */
+
+.wptr_p-top-1 {
+    padding-top: 0.6rem !important;
+}
+
+.wptr_Gift-course {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wptr_line-height-normal {
+    line-height: 1.2;
+}
+
+.wptr_z1-index {
+    position: relative;
+    z-index: 1;
+}
+
+.wptr_pbtm-1,
+.wptr_py-x-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.wptr_ptop-1,
+.wptr_py-x-1 {
+    padding-top: 0.25rem !important;
+}
+
+.wptr_badge-warning-y {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.wptr_badges {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.wptr_pt-sans-font {
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+.wptr_px-left,
+.wptr_px-xy-3 {
+    padding-left: 0.9375rem !important;
+}
+.rdtr-ch-sec .chapter-anchor-link {
+    position: relative;
+}
+
+.my-course_sidebar .wptr_MainMenu ul.wptr_ul .rdtr-chapter-panel.wptr_px-left {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    color: #fff;
+    cursor: pointer;
+    z-index: 99;
+}
+.px-right,
+.px-xy-3 {
+    padding-right: 0.9375rem !important;
+}
+
+.wptr_badges.wptr_badge-arrow-right:after {
+    border-radius: 3px;
+    right: -6px;
+    background: inherit;
+    content: "";
+    height: 13px;
+    position: absolute;
+    top: 2px;
+    transform: rotate(45deg);
+    width: 13px;
+    z-index: -1;
+    display: block;
+}
+
+.wptr_mleft-4,
+.wptr_mx-xy-4 {
+    margin-left: 1.5rem;
+}
+
+.wptr_mright-4,
+.wptr_mx-xy-4 {
+    margin-right: 1.5rem;
+}
+
+.wptr_mleft-3,
+.wptr_mx-xy-3 {
+    margin-left: 1rem;
+}
+
+.wptr_mbtm-4,
+.wptr_my-yx-4 {
+    margin-bottom: 1.5rem;
+}
+
+.wptr_mtop-4,
+.wptr_my-yx-4 {
+    margin-top: 1.5rem;
+}
+
+.wptr_mright-3,
+.wptr_mx-xy-3 {
+    margin-right: 1rem;
+}
+
+.wptr_mtop-2,
+.wptr_my-xy-2 {
+    margin-top: 0.5rem;
+}
+
+.wptr_mbtm-2,
+.wptr_my-xy-2 {
+    margin-bottom: 0.5rem;
+}
+
+.wptr_mtop-5,
+.wptr_my-xs-5 {
+    margin-top: 3rem;
+}
+
+.wptr_mbtm-5,
+.wptr_my-xs-5 {
+    margin-bottom: 3rem;
+}
+
+.wptr_mbtm-0 {
+    margin-bottom: 0;
+}
+
+.wptr_mtop-auto,
+.wptr_my-xy-auto {
+    margin-top: auto;
+}
+
+.wptr_mbtm-auto,
+.wptr_my-xy-auto {
+    margin-bottom: auto;
+}
+
+.wptr_pleft-0,
+.wptr_px-xy-0 {
+    padding-left: 0;
+}
+
+.wptr_pright-0,
+.wptr_px-xy-0 {
+    padding-right: 0 !important;
+}
+
+.wptr_mbtm-0,
+.wptr_my-xy-0 {
+    margin-bottom: 0 !important;
+}
+
+.wptr_mtop-0,
+.wptr_my-xy-0 {
+    margin-top: 0;
+}
+
+.wptr_mbtm-3,
+.wptr_my-yx-3 {
+    margin-bottom: 1rem !important;
+}
+
+.wptr_mtop-3,
+.wptr_my-yx-3 {
+    margin-bottom: 1rem;
+}
+
+.wptr_mx-xy-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wptr_mleft-auto {
+    margin-left: auto;
+}
+
+.wptr_align-btm {
+    vertical-align: bottom;
+}
+
+.wptr_custom-font {
+    font-size: 2.4125rem !important;
+}
+
+.wptr_Montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wptr_fontweight-light-bold {
+    font-weight: 500;
+}
+
+.wptr_display-block {
+    display: block;
+}
+
+.wptr_pos-relative {
+    position: relative;
+}
+
+.wptr_border-btm {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.wptr_border-all {
+    border: 1px solid #dee2e6;
+}
+
+.wptr_back-light {
+    background-color: #f2f3f5;
+}
+
+.wptr_text-z-black {
+    color: #525252 !important;
+}
+
+.wptr_list-unstyle {
+    padding-left: 0;
+    list-style: none;
+}
+
+.wptr_icon-normal {
+    font-size: 1.846rem;
+}
+
+.wptr_accordion .wptr_a-card:last-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.wptr_card-hdr:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.wptr_display-none {
+    display: none;
+}
+
+.wptr_card-hdr {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.wptr_accordion-right-side .wptr_section-time-length {
+    width: 20%;
+}
+
+.wptr_txt-right {
+    text-align: right;
+}
+
+.wptr_a-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.385rem;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+}
+
+.wptr_card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.wptr_border-top-none {
+    border-top: 0px;
+}
+
+.wptr_box-shadow-none {
+    box-shadow: none !important;
+}
+
+.wptr_align-mid {
+    vertical-align: middle;
+}
+
+.wptr_clr-blue {
+    color: #007bff;
+}
+
+.wptr_pleft-4,
+.wptr_px-xy-4 {
+    padding-left: 1.5rem;
+}
+
+.wptr_mar-0 {
+    margin: 0px !Important;
+}
+
+.wptr_pright-4,
+.wptr_px-xy-4 {
+    padding-right: 1.5rem;
+}
+
+.wptr_pbtm-2,
+.wptr_py-yx-2 {
+    padding-bottom: 0.5rem !important;
+}
+
+.wptr_ptop-2,
+.wptr_py-yx-2 {
+    padding-top: 0.5rem;
+}
+
+.wptr_pleft-5,
+.wptr_px-xy-5 {
+    padding-left: 3rem;
+}
+
+.wptr_pright-5,
+.wptr_px-xy-5 {
+    padding-right: 3rem;
+}
+
+.wptr_pbtm-3,
+.wptr_py-yx-3 {
+    padding-bottom: 1rem;
+}
+
+.wptr_ptop-3,
+.wptr_py-yx-3 {
+    padding-top: 1rem;
+}
+
+.wptr_pad-yx-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.wptr_pad-xy-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wptr_font-wt-semi-bold {
+    font-weight: 600;
+}
+
+.wptr_box-shadow-all {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+}
+
+.wptr_txt-center {
+    text-align: center;
+}
+
+.wptr_font-normal-size {
+    font-size: 1.231rem;
+}
+
+.wptr_display-5-font {
+    font-size: 1.231rem;
+}
+
+.wptr_txt-muted {
+    color: #6c757d;
+}
+
+.wptr_display-1-font {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.wptr_process-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width 0.6s ease;
+}
+
+.wptr_process {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.3rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.wptr_mleft-2,
+.wptr_mx-xy-2 {
+    margin-left: 0.5rem;
+}
+
+.wptr_mright-2,
+.wptr_mx-xy-2 {
+    margin-right: 0.5rem;
+}
+
+.wptr_input-group-text {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.wptr_input-group-text>.wptr_form-control-text:not(:last-child),
+.wptr_input-group-text>.wptr_custom-select-text:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wptr_font-wt-normal {
+    font-weight: 400;
+}
+
+.wptr_montserrat-font {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.wptr_form-control-text,
+.wptr_custom-select-text,
+.wptr_input-group-text>.wptr_custom-file-text {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1% !important;
+    margin-bottom: 0;
+}
+
+.wptr_input-field>.wptr_fControl {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.wptr_form-control-text {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1.154rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #525252;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.3077rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wptr_back-light {
+    background-color: #f2f3f5;
+}
+
+.wptr_border-none {
+    border: 0px !important;
+}
+
+.wptr_input-group-append-left {
+    margin-left: -1px;
+}
+
+.wptr_input-group-prepend-right,
+.wptr_input-group-append-left {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wptr_ptop-md-2,
+.wptr_py-yx-md-2 {
+    padding-top: 0.5rem;
+}
+
+.wptr_pleft-0,
+.wptr_px-xy-0 {
+    padding-left: 0 !important;
+}
+
+.wptr_input-group-text-alt {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.75rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f2f3f5;
+    border: 1px solid #f2f3f5;
+    border-radius: 0.3077rem;
+}
+
+.wptr_ic-srch {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.wptr_pbtm-4,
+.wptr_py-yx-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.wptr_ptop,
+.wptr_py-yx-4 {
+    padding-top: 1.5rem !important;
+}
+
+.wptr_mtop-4,
+.wptr_my-xy-4 {
+    margin-top: 1.5rem !important;
+}
+
+.wptr_px-yx-4 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.wptr_txt-uppercase {
+    text-transform: uppercase;
+}
+
+.wptr_label-font {
+    font-size: 1.077rem;
+    color: #525252;
+}
+
+.wptr_mbottom-4,
+.wptr_my-xy-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.wptr_round-circle {
+    border-radius: 50% !important;
+}
+
+.wptr_user-avatar {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.wptr_col-small-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wptr_col-small-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.wptr_text-trunc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wptr_btn-custom {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.231rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wptr_bodr-top {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.wptr_mtop-3,
+.wptr_my-yx-3 {
+    margin-top: 1rem !important;
+}
+
+.wptr_mbtm-3,
+.wptr_my-yx-3 {
+    margin-bottom: 1rem !important;
+}
+
+.wptr_text-gray-dark {
+    color: #4a4a4a !important;
+}
+
+.wptr_incentives .wptr_incentives__item {
+    padding: 1px 0;
+    font-size: 14px;
+}
+
+.wptr_list-unstyl {
+    padding-left: 0;
+    list-style: none;
+}
+
+.wptr_btn-link-new {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+}
+
+.wptr_btn-small {
+    padding: 1.25rem 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.wptr_bdr-top {
+    border-top: 1px solid #dee2e6;
+}
+
+.wptr_txt-dark-gray {
+    color: #4a4a4a;
+}
+
+.wptr_social {
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: flex;
+}
+
+.wptr_list-item-inline:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.wptr_social-icon img {
+    width: 100%;
+    display: block;
+}
+
+.wptr_back-black {
+    background: #000;
+}
+
+.wptr_list-item-inline {
+    display: inline-block;
+}
+
+.wptr_social-icon .wptr_list-item-inline {
+    padding: 0px 18px;
+}
+
+.wptr_mx-xy-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+ul.wptr_social {
+    padding: 0px 40px;
+    margin: 1rem 0rem
+}
+
+.wptr_button-primary {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    border-color: #cf3e12;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wptr_btn-large {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+ul .wptr_inner {
+    overflow: hidden;
+    display: none;
+    margin-top: -5px;
+    background: #fff;
+}
+
+ul.wptr_accordion li {
+    display: block;
+}
+
+ul li a.wptr_toggle {
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.03);
+    color: #fefefe;
+    padding: .75em;
+    border-radius: 0.15em;
+    transition: background .3s ease;
+    border: 1px solid #dee2e6;
+    margin-bottom: 4px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.07);
+}
+
+.wptr_accordion,
+.shadow {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+}
+
+.wptr_toggle {
+    padding: 10px 0px;
+}
+
+.wptr_mright-5 {
+    margin-right: 8rem;
+}
+.wptr_categories-section .wptr_categories-col .wptr_a-card figure {
+    height: 200px;
+    background-color: #3498db;
+    width: 100%;
+    overflow: hidden;
+}
+
+#my-course-progress .wptr_categories-section .wptr_categories-col .wptr_a-card figure img.card-img-top {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.wptr_container-fld {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wptr_overflow-hidden {
+    overflow: hidden;
+}
+
+.wptr_categories-section .wptr_a-card .wptr_a-card-title {
+    height: 30px;
+    margin: 0 0 10px 0;
+}
+
+.wptr_txt-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wptr_line-clp-2 {
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.wptr_big-success {
+    background-color: #28a745 !important;
+}
+
+.wptr_a-card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.wptr_font-wt-bold {
+    font-weight: 700 !important;
+}
+
+.wptr_mbottom-1,
+.wptr_my-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.wptr_mtopp-1,
+.wptr_my-1 {
+    margin-top: 0.25rem !important;
+}
+
+.wptr_col-small-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wptr_course-categorie .wptr_categories-col .wptr_process {
+    height: 0.5rem;
+}
+
+.wptr_hr_1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: none;
+}
+
+.wptr_rounded-corner-all {
+    border-radius: 30px !important;
+}
+
+.wptr_button-small {
+    padding: 0.375rem 0.75rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: all ease-in-out 0.4s;
+}
+
+.wptr_btn-red:hover,
+.wptr_btn-red:focus {
+    color: #fff !important;
+    background: -webkit-linear-gradient(top, #d24115 0, #b7380f 100%);
+    background: linear-gradient(to bottom, #d24115 0, #b7380f 100%);
+    border-color: #b7380f;
+}
+
+.wptr_font-actual-size,
+.wptr_font-actual-size:before {
+    font-size: 1.25rem !important;
+}
+
+.wptr_button-small.wptr_Syllabus,
+.wptr_button-small.wptr_resume {
+    width: 48%;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12.5px;
+    letter-spacing: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.wptr_btn-red {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    border-color: #cf3e12;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wptr_fControl {
+    height: 3.231rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.wptr_shadow-none-all {
+    box-shadow: none !important;
+}
+
+.wptr_ptop-0 {
+    padding-top: 0px !important;
+}
+
+.wptr_a-card-title {
+    margin-bottom: 0.75rem;
+}
+
+.wptr_bg-light-red {
+    background-color: #ef6e6e !important;
+}
+
+.wptr_badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.wptr_badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.wptr_line-clamp-4 {
+    -webkit-line-clamp: 4;
+}
+
+.wptr_font-wt-light-bold {
+    font-weight: 500 !important;
+}
+
+
+/*slick slider dicrption inner */
+
+.wptr_description-slider-inner .wptr_slick-prev.wptr_slick-arrow {
+    left: -8px;
+}
+
+.wptr_description-slider-inner .wptr_slick-next.wptr_slick-arrow {
+    right: -8px;
+}
+
+.wptr_description-slider-inner .wptr_slick-prev,
+.wptr_description-slider-inner .wptr_slick-next {
+    top: 58%;
+    transform: translateY(-58%);
+}
+
+.wptr_description-slider-inner .slick-track .slick-slide .wptr_a-card figure img {
+    height: 280px;
+    width: auto;
+    object-fit: cover;
+}
+
+.wptr-slider-layout {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.wptr-rud-training-pg #my-course-syllabus .slick-slide {
+    margin: 0px 15px;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .slick-slide img {
+    width: 100%;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .slick-prev:before,
+.wptr-rud-training-pg #my-course-syllabus .slick-next:before {
+    color: black;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .slick-slide {
+    transition: all ease-in-out .3s;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .slick-current {
+    opacity: 1;
+}
+
+.wptr_description-slider .slick-slide .wptr_a-card {
+    background-color: #fff;
+    color: #000;
+    transition: all ease-in 0.3s;
+    width: auto !important;
+}
+
+.wptr_description-slider .slick-slide.slick-current.slick-active .slick_inner-containner {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+.wptr_description-slider .slick-slide .slick-down-icon:after,
+.wptr_description-slider .slick-slide.slick-active .slick-down-icon:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in 0.3s;
+}
+
+.wptr_description-slider .slick-slide .slick-down-icon:after {
+    border-top: 10px solid transparent;
+}
+
+.wptr_description-slider .slick-slide.slick-current.slick-active .slick-down-icon:after {
+    border-top: 10px solid #6f42c1;
+}
+
+.wptr_description-slider .slick-slide .wptr_a-card:hover {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+.wptr_description-slider .slick-slide .wptr_a-card:hover:after {
+    border-top: 10px solid #6f42c1;
+}
+
+.wptr_description-slider .slick-list.draggable {
+    overflow: -webkit-paged-y;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .wptr_description-slider .slick-prev {
+    top: -20px;
+    left: auto;
+    right: 50px;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .wptr_description-slider .slick-next {
+    top: -20px;
+    right: 15px;
+}
+
+.wptr-rud-training-pg .icon-normalize,
+.wptr-rud-training-pg .icon-normalize:before {
+    font-size: 1.2rem;
+}
+
+.my-course_sidebar .wptr_MainMenu ul.wptr_ul li.rdtr-ch-sec {
+    line-height: 30px;
+}
+
+.wptr_img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.wptr_margin-0 {
+    margin: 0px !important;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .exercise_slidr .slick-prev {
+    left: -8px;
+    min-width: 26px;
+}
+
+.wptr-rud-training-pg #my-course-syllabus .exercise_slidr .slick-next {
+    right: -8px;
+    min-width: 26px;
+}
+
+.wptr-rud-cstm-dialog .ui-dialog-titlebar-close{
+    min-width: 26px;
+}
+
+.wptr_pad-0 {
+    padding: 0px !important;
+}
+
+.wptr_px-right,
+.wptr_px-xy-3 {
+    padding-right: 0.9375rem !important;
+}
+
+.wptr_description-slider .slick-slide.slick-current.slick-active .wptr_slick-down-icon:after {
+    border-top: 10px solid #6f42c1;
+}
+
+.wptr_description-slider .slick-slide .wptr_slick-down-icon:after,
+.wptr_description-slider .slick-slide.slick-active .wptr_slick-down-icon:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in 0.3s;
+}
+
+.wptr_description-slider .slick-slide .wptr_slick-down-icon:after {
+    border-top: 10px solid transparent;
+}
+
+.wptr_bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+.wptr_ht-100-custome {
+    height: 100%;
+}
+
+.wptr_justify-content-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.wptr_rounded-0 {
+    border-radius: 0;
+}
+
+.wptr_border-left-0 {
+    border-left: 0 !important;
+}
+
+.wptr_border-right-0 {
+    border-right: 0 !important;
+}
+
+.wptr_border-top-0 {
+    border-top: 0 !important;
+}
+
+.wptr_bg-transparent {
+    background-color: transparent !important;
+}
+
+.wptr_effect-2~.wptr_focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    z-index: 9;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+.wptr_account-from input[type="checkbox"]:not(:checked),
+.wptr_account-from input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+.wptr_account-from input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.wptr_form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+}
+
+.wptr_form-check-label {
+    margin-bottom: 0;
+}
+
+.wptr_label {
+    display: inline-block;
+    margin-bottom: 0rem;
+    font-size: 1.077rem;
+    color: #525252;
+}
+
+.wptr_btn-danger {
+    color: #fff;
+    background: #f41242;
+    border-color: #f41242;
+}
+
+.wptr_txt-purple {
+    color: #503eea !important;
+}
+
+.wptr_ptop-4 {
+    padding-top: 1.5rem !important;
+}
+
+.wptr_letter-spacing-0 {
+    letter-spacing: 0;
+}
+
+.wptr_input-group>.wptr_form-control,
+.wptr_input-group>.wptr_custom-select,
+.wptr_input-group>.wptr_custom-file {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.wptr_input-group-append {
+    margin-left: -1px;
+}
+
+.wptr_input-group-prepend,
+.wptr_input-group-append {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wptr_input-group-text {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    border: 1px solid #ced4da;
+    align-items: center;
+}
+
+.wptr_txt-light-gray {
+    color: #a3a3a3 !important;
+}
+
+.wptr_social-icon a {
+    display: inline-block;
+    width: 45px;
+}
+
+.wptr_px-4-2 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.wptr_plcholder ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #b5b8ba;
+    font-size: 1.154rem;
+}
+
+.wptr_plcholder ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #b5b8ba;
+    font-size: 1.154rem;
+}
+
+.wptr_plcholder :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #b5b8ba;
+    font-size: 1.154rem;
+}
+
+.wptr_plcholder :-moz-placeholder {
+    /* Firefox 18- */
+    color: #b5b8ba;
+    font-size: 1.154rem;
+}
+
+.wptr_mtop-large-5 {
+    margin-top: 4.2rem;
+}
+
+.wptr_list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.wptr_list-group-item-action {
+    width: 100%;
+    color: #495057;
+    text-align: inherit;
+}
+
+.wptr_list-group-item-action:hover,
+.wptr_list-group-item-action:focus {
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.wptr_list-group-item-action:active {
+    color: #212529;
+    background-color: #e9ecef;
+}
+
+.wptr_list-group-item {
+    position: relative;
+    display: flex;
+    padding: 5px 24px 5px 20px;
+    margin-bottom: -1px;
+    background-color: #5f4f91;
+    color: #998bc7;
+    border-top: 1px solid #706591;
+    border-bottom: 1px solid #706591;
+    transition: all 0.2s ease-in 0s;
+    align-items: center;
+}
+
+.wptr-rud-training-pg .my-course-t_bar .font-nomal_icons:before {
+    font-size: 21px;
+}
+
+.wptr_list-group-item:hover {
+    background-color: #50427b;
+    color: #fff;
+}
+
+.wptr_list-group-item:first-child {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+.wptr_list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.wptr_list-group-item:hover,
+.wptr_list-group-item:focus {
+    z-index: 1;
+    text-decoration: none;
+}
+
+.wptr_list-group-item.disabled,
+.wptr_list-group-item:disabled {
+    color: #6c757d;
+    background-color: #fff;
+}
+
+.wptr_list-group-item.wptr_active {
+    z-index: 2;
+    color: #fff;
+    background-color: transparent;
+    border-color: #706591;
+}
+
+/*.course-ds-list {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.course-ds-list li {
+    padding: 0px 0px 12px 18px;
+    position: relative;
+    font-size: 14px;
+    color: #000;
+}
+
+.course-ds-list li:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: lightblue;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightblue;
+}
+
+.wptr_bg-white {
+    background-color: #fff !important;
+}
+
+.wptr_module-container {
+    height: calc(100% - 23px);
+    overflow-y: auto;
+}
+
+.wptr_round-tag {
+    width: 32px;
+    height: 30px;
+    padding: 0 !important;
+}
+
+.wptr_input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+
+.wptr_categories-section form.wptr_input-group input {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    width: calc(100% - 43px);
+    font-size: 13px;
+    padding-left: 12px;
+    height: 45px;
+}
+
+.wptr_categories-section #frmSearchCourse.wptr_input-group #btn-search {
+    background-color: transparent;
+    border: none;
+    width: 43px;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+}
+.wptr_categories-section #frmSearchCourse #btn-search .bg-light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wptr_categories-section #frmSearchCourse #btn-search i.text-black {
+    color: #333;
+}
+
+.wptr-rud-training-pg .training-course-found,
+.wptr-rud-training-pg .training-no-course {
+    width: 100%;
+    padding: 0px 15px;
+}
+
+@media(min-width: 980px) {
+    .wptr_dasboard-content-area {
+        height: calc(100% - 1px);
+    }
+    .wptr_module-section {
+        height: calc(100% - 63px);
+    }
+}
+
+@media(min-width: 1680px) {
+    .wptr_module-section {
+        height: calc(100% - 55px);
+    }
+}
+
+@media screen and (max-width:980px) {
+    .wptr_mobileMenu {
+        float: left;
+    }
+    .wptr_d-none-sm {
+        display: none;
+    }
+    .wptr_d-none-desk {
+        display: block;
+    }
+    .wptr_navMenubar {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .wptr_navMenubar ul {
+        display: none;
+    }
+    .wptr_menuLine:after {
+        content: "";
+        position: absolute;
+        background: #cecece;
+        height: 2px;
+        top: 7px;
+        left: 0;
+        width: 20px;
+    }
+    .wptr_menuLine:before {
+        content: "";
+        position: absolute;
+        background: #cecece;
+        height: 2px;
+        top: -7px;
+        left: 0;
+        width: 20px;
+    }
+    .wptr_menuLine {
+        position: relative;
+        background: #cecece;
+        width: 20px;
+        height: 2px;
+        float: left;
+        top: 15px;
+    }
+    [id^='fun'] ul {
+        border: 0;
+        display: block;
+        width: 100%
+    }
+    .wptr_navmenu ul li {
+        display: block;
+        text-align: left;
+    }
+    #toggle_menu {
+        display: block;
+    }
+    #toggle_menu {
+        -webkit-transition: all .3s linear 0s;
+        transition: all .3s linear 0s;
+        background: #fff;
+        float: left;
+        width: 45px;
+        display: block;
+        height: 35px;
+        padding-left: 11px;
+        border: 1px solid #eee;
+        border-radius: 2px;
+    }
+    .wptr_open {
+        display: block !important;
+        -webkit-transition: all .3s linear 0s;
+        transition: all .3s linear 0s;
+    }
+    .wptr_Sign-up {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .wptr_navbar {
+        padding: 0.5rem 0;
+        display: block;
+        clear: both;
+        min-height: 50px;
+    }
+    .wptr_fontsize-normal {
+        font-size: 1.231rem !important;
+    }
+    .wptr_btn-link {
+        padding: 0.375rem 1.5rem;
+    }
+    .wptr_navMenubar li {
+        display: block;
+        width: 100%;
+    }
+    .wptr_width-100-menu-mob {
+        width: 100% !important;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:981px) {
+    .wptr_account-from {
+        width: 480px;
+    }
+    .wptr_description-slider .slick-track .slick-slide {
+        height: 180px;
+        padding-top: 10px;
+    }
+    .wptr_description-slider-inner .slick-track .slick-slide {
+        width: auto;
+    }
+    .wptr_border-radius-all {
+        border-radius: 4px;
+    }
+    .wptr_guide-discption-section .wptr_right-side-pannel .wptr_inner-div {
+        margin-top: -292px;
+    }
+    #toggle_menu {
+        display: none;
+    }
+    .wptr_d-none-desk {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .wptr_dasboard-content-area {
+        display: inline-table;
+        margin: 30px 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    .wptr_display-sm-flex {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    .wptr_ptop-sm-3,
+    .wptr_py-yx-sm-3 {
+        padding-top: 1rem !important;
+    }
+    .wptr_pbtm-sm-3,
+    .wptr_py-yx-sm-3 {
+        padding-bottom: 1rem !important;
+    }
+    .wptr_text-small-right {
+        text-align: right;
+    }
+    .wptr_col-small-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .wptr_col-small-6,
+    .wptr_col-large-8,
+    .wptr_col-medium-6,
+    .wptr_col-medium-2,
+    .wptr_col-large-10,
+    .wptr_col-large-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .wptr_flt-sm-left {
+        float: left;
+    }
+    .wptr_flt-sm-right {
+        float: right;
+    }
+    .wptr_flt-sm-none {
+        float: none;
+    }
+}
+
+
+/*here start*/
+
+.wptr_cl-md-1,
+.wptr_cl-md-2,
+.wptr_cl-md-3,
+.wptr_cl-md-4,
+.wptr_cl-md-5,
+.wptr_cl-md-6,
+.wptr_cl-md-7,
+.wptr_cl-md-8,
+.wptr_cl-md-9,
+.wptr_cl-md-10,
+.wptr_cl-md-11,
+.wptr_cl-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wptr_cl-md-12 {
+    width: 100%;
+}
+
+.wptr_categories-col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.wptr_categories-section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.wptr_card-box-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.wptr_card-box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #dfdfdf;
+    border-radius: 0.385rem;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.09);
+}
+
+.wptr_line-overflow {
+    white-space: normal !important;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wptr_userimg-and-price {
+    margin-top: 3rem;
+    display: flex;
+}
+
+#training-all-courses .wptr_categories-col .wptr_user_name {
+    color: #666666;
+    padding-left: 0.5rem;
+    align-self: center;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}
+
+.wptr_d-5 {
+    font-size: 13px;
+}
+
+@media (min-width: 768px) {
+    .wptr_offset-medium-4 {
+        margin-left: 33.333333%;
+    }
+    .wptr_offset-medium-2 {
+        margin-left: 33.333333%;
+    }
+    .wptr_categories-col {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .wptr_col-medium-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .wptr_col-medium-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .wptr_col-medium-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .wptr_col-medium-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        padding: 0px 15px;
+    }
+    .wptr_col-medium-3 {
+        -ms-flex: 0 0 317px;
+        flex: 0 0 317px;
+        max-width: 317px;
+
+    }
+    .wptr_offset-medium-2 {
+        margin-left: 16.666667%;
+    }
+}
+
+.wptr_box-shadow {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wptr_header .wptr_input-field {
+    min-width: 300px;
+}
+
+.wptr_home-section {
+    background: #afafaf;
+    height: 440px;
+}
+
+#training-all-courses .wptr_userimg-and-price .wptr_img-fluid  {
+    width: 26px !important;
+    height: 26px !important;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.wptr_categories-section #training-all-courses .wptr_categories-col .wptr_card-box figure.wptr_img_flex {
+    height: 200px;
+    background-color: #3498db;
+    margin: 0;
+    border-radius: 0.385rem 0.385rem 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wptr_categories-section .wptr_categories-col .wptr_card-box figure .card-box-img-top {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.wptr_categories-section .wptr_categories-col:nth-child(even) .wptr_card-box figure {
+    background-color: #7552a2;
+}
+
+.wptr_categories-section #training-all-courses .wptr_card-box .wptr_card-box-title {
+    height: 30px;
+    margin: 0;
+}
+
+.wptr_custome-btn-header {
+    top: 8px;
+    right: 0rem;
+}
+
+
+/*signup*/
+
+
+/*= input focus effects css =========================== */
+
+.wptr-rud-training-pg input::-webkit-input-placeholder,
+.wptr-rud-training-pg input::-moz-input-placeholder {
+    color: #a3a3a3;
+}
+
+.wptr-rud-training-pg :focus {
+    outline: none;
+}
+
+.wptr_effect-2 {
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.wptr_effect-2~.wptr_focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    z-index: 9;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+.wptr_effect-2:focus~.wptr_focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.wptr_account-from input[type="checkbox"]:not(:checked),
+.wptr_account-from input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+.wptr_account-from input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.wptr_account-from input[type="checkbox"]+label {
+    position: relative;
+    padding: 0 0px 0 7px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1.05rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+.wptr_account-from input[type="checkbox"]+label:before,
+input[type="checkbox"]:not(.wptr_filled-in)+label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 2px solid #5a5a5a;
+    border-radius: 1px;
+    margin-top: 2px;
+    transition: .2s;
+    opacity: 0;
+}
+
+.wptr_account-from input[type="checkbox"]:not(.wptr_filled-in)+label:after {
+    border: 0;
+    transform: scale(0);
+}
+
+.wptr_account-from input[type="checkbox"]:checked+label:before {
+    top: -4px;
+    left: -5px;
+    width: 12px;
+    height: 22px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #503eea;
+    border-bottom: 2px solid #503eea;
+    transform: rotate(40deg);
+    backface-visibility: hidden;
+    transform-origin: 100% 100%;
+}
+
+
+/*common-classes*/
+
+.wptr_order-0 {
+    -ms-flex-order: 0;
+    order: 0;
+}
+
+.wptr_order-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.wptr_order-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.wptr_order-3 {
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.wptr_order-4 {
+    -ms-flex-order: 4;
+    order: 4;
+}
+
+.wptr_order-5 {
+    -ms-flex-order: 5;
+    order: 5;
+}
+
+.wptr_order-6 {
+    -ms-flex-order: 6;
+    order: 6;
+}
+
+
+/*course-description*/
+
+.wptr_SidebarLayers {
+    display: flex;
+    height: calc(100%);
+    left: 0px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+
+#wptr_content {
+    flex: 1;
+    order: 2;
+    overflow: auto;
+    transition: left .3s ease-in-out;
+    font-size: 13px;
+}
+
+#wptr_module {
+    width: 300px;
+    background: #50427b;
+    position: relative;
+    height: 100%;
+}
+
+.wptr_module-Element {
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+}
+
+.wptr_Layers__layers {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 300px;
+}
+
+.wptr_a {
+    text-decoration: none !important;
+}
+
+.wptr_a:hover {
+    box-shadow: none;
+}
+
+.wptr_img_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wptr_shadow_none,
+.wptr_shadow_none:hover {
+    box-shadow: none !important;
+}
+
+@media(min-width: 768px) {
+    .wptr_account-from .wptr_col-medium-12 {
+        padding: 0px 7px;
+    }
+    .wptr_account-from {
+        width: 480px;
+    }
+    .wptr_form-control {
+        height: 3.231rem;
+    }
+    .wptr_form-control-text {
+        height: 3.231rem;
+    }
+    .wptr_col-medium-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .wptr_col-medium-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .wptr_pright-md-0,
+    .wptr_px-xy-md-0 {
+        padding-right: 0 !important;
+    }
+}
+
+@media(max-width: 1200px) {
+    .wptr_right-side-pannel .wptr_inner-div {
+        padding: 20px !important;
+    }
+    .wptr_navbar-brand img {
+        width: 150px;
+    }
+    .wptr_header .wptr_input-field {
+        min-width: 240px;
+    }
+}
+
+@media(max-width: 979px) {
+    .wptr_col-tab-half {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .wptr_accordion-right-side .wptr_section-time-length {
+        padding-right: 13px;
+    }
+    ul.wptr_social {
+        padding: 0px 40px;
+        width: 100%;
+    }
+    .wptr_custome-btn-header {
+        top: 7px;
+    }
+}
+
+@media(max-width: 767px) {
+    .wptr_account-from {
+        width: 100% !important;
+    }
+    .wptr_account-from {
+        width: 100% !important;
+        padding: 3rem 5px !important;
+    }
+    .wptr_form-check {
+        padding: 0;
+        margin: 0;
+    }
+    .wptr_intTitle {
+        font-size: 21px;
+        padding-bottom: 20px !important;
+    }
+    .wptr_description-slider-inner .slick-track .slick-slide .wptr_a-card figure img {
+        width: 100%;
+    }
+    .wptr_col-small-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+    .wptr_input-group-text-alt {
+        padding: 0.375rem 0.75rem;
+    }
+    .wptr_mright-5 {
+        margin-right: 20px;
+    }
+    .wptr_ml-xs-0 {
+        margin-left: 0px !important;
+    }
+    .wptr_h5_5 {
+        font-size: 1.05rem;
+    }
+    .wptr_small-pad-yx {
+        padding: 0px 10px;
+    }
+    .wptr_col-100 {
+        width: 100%;
+        float: left;
+        margin-top: 11px;
+    }
+    .wptr_main-head-bar h3 {
+        margin-bottom: 10px !important;
+    }
+    .wptr_custom-font {
+        font-size: 1.846rem !Important;
+    }
+    .wptr_h3_3 {
+        font-size: 1.4rem;
+    }
+    .wptr_guide-home-section .wptr_width-25 {
+        width: 45%;
+    }
+    .wptr_display-1-font {
+        font-size: 4rem;
+    }
+    .wptr_review-summary p {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .wptr_review-summary {
+        display: flex;
+        align-items: center;
+    }
+    .wptr_col-small-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .wptr_accordion-right-side {
+        display: block;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .wptr_row-section {
+        margin: 0;
+    }
+    .wptr_pad-tb-large {
+        padding: 0;
+    }
+    .wptr_review-star.txt-right {
+        text-align: left;
+        padding-top: 20px;
+    }
+    .wptr_width-50 {
+        width: auto;
+    }
+    .wptr_pright-5,
+    .wptr_px-xy-5 {
+        padding-right: 1rem;
+    }
+    .wptr_pleft-5,
+    .wptr_px-xy-5 {
+        padding-left: 1rem;
+    }
+    .wptr_px-small-0 {
+        padding: 0px;
+    }
+    .wptr_details a,
+    .wptr_details span {
+        margin-right: 4px;
+    }
+    .wptr_h1 {
+        font-size: 2rem !important;
+    }
+    .wptr_text-center-mob {
+        text-align: center;
+    }
+    .wptr_btn-link {
+        padding: 0.375rem 0.75rem;
+    }
+    .wptr_search-form {
+        float: left;
+        width: 100%;
+    }
+    .wptr_mright-xl-4 {
+        margin-left: 1rem;
+    }
+    .wptr_login-and-signup {
+        width: 165px;
+        margin-top: 12px;
+    }
+    .wptr_ml-left {
+        margin-left: 0;
+    }
+    .wptr_categories-section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .wptr_search-form .wptr_input-field>.wptr_fControl {
+        height: calc(2.25rem + 2px);
+    }
+    .wptr_log-in .wptr_mright-xl-4 {
+        margin-left: 0;
+    }
+    .wptr_log-in {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .wptr_get-started-btn {
+        width: 140px;
+        padding: 8px;
+    }
+    .wptr_upper-header-bar .wptr_navbar-brand {
+        width: 105px;
+    }
+    .wptr_login-and-signup {
+        width: 180px;
+    }
+    .wptr_header .wptr_login-and-signup-inner {
+        top: 8px;
+    }
+    .wptr_home-section {
+        height: 340px;
+    }
+    .wptr_header .wptr_input-search {
+        min-width: 100%;
+    }
+    .wptr_colm-sm-6 {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 979px) and (orientation: landscape) {
+    .wptr_Sign_up {
+        height: calc(100vh + 450px);
+    }
+}
+
+@media(max-width: 480px) {
+    .wptr_container-fld {
+        padding: 0;
+    }
+    .wptr_login-and-signup {
+        width: 165px;
+    }
+    .wptr_inner-siginup-div {
+        width: 100%;
+    }
+    .wptr_wptr_dasboard-content-area {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 767px) {
+    .wptr_Sign_up {
+        height: calc(100vh + 200px);
+    }
+}
+
+
+/*---new-classes-----*/
+
+.wptr_h1_1,
+.wptr_h2_1,
+.wptr_h3_3,
+.wptr_h4_4,
+.wptr_h5_5,
+.wptr_h6_6 {
+    margin-bottom: 0.5rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    padding: 0;
+}
+
+.wptr_h1_1 {
+    font-size: 32px;
+}
+
+.wptr_h2_1 {
+    font-size: 30px;
+}
+
+.wptr_h3_3 {
+    font-size: 24px;
+}
+
+.wptr_h4_4 {
+    font-size: 20px;
+}
+
+.wptr_h5_5 {
+    font-size: 16px
+}
+
+.wptr_h6_6 {
+    font-size: 13px;
+}
+
+
+/*common-classes*/
+
+.wptr_white {
+    color: #fff;
+}
+
+.wptr_content-section {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .wptr_content-section {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .wptr_content-section {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wptr_content-section {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wptr_content-section {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .wptr_content-section {
+        max-width: 1140px;
+    }
+}
+
+.wptr-clear {
+    clear: both;
+}
+
+.wptr_course-description {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    width: 100%;
+}
+
+.wptr_course-info {
+    background-color: #343a40;
+    padding: 30px;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.wptr_right-section {
+    margin-top: 1.5rem;
+    float: left;
+    width: 100%;
+}
+
+.wptr_right-section h3 {
+    width: 100%;
+}
+
+.wptr_course-title {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+}
+
+.wptr_course-by {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.wptr_course-price {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wptr-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wptr_badge-star {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    position: relative;
+    vertical-align: middle;
+    color: #212529;
+    background-color: #ffc107;
+    padding: 0.25rem 0.7rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wptr_r-section {
+    margin-bottom: 0.5rem;
+}
+
+.wptr_enrolled,
+.wptr_rating {
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+}
+
+.wptr_rating {
+    margin: 0px 10px;
+}
+
+.wptr-rud-training-pg#mycourse-top .wptr_course-btn,
+.wptr_course-btn,
+.wptr_course-detail #commentform .form-submit input[type="submit"] {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff !important;
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    padding: 5px 6px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: 1px solid #cf3e12;
+    height: 28px;
+    min-width: 60px;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wptr_course-detail #commentform .form-submit input[type="submit"] {
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+#all-courses_top .my_rdtr_topbar .rdtr-breadcrumb.my-course_page {
+    margin: 0;
+    border-radius: 4px;
+}
+
+.my-course-t_bar .wptr_rounded .mdi-book-open-variant.wptr_middle-algn {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.my-course-t_bar .wptr_rounded+h6.wptr_txt-truncate {
+    margin-left: 10px !important;
+    font-size: 13px;
+    font-weight: 600;
+    color: #505050;
+    width: calc(100% - 40px);
+    margin: 0px;
+    padding-bottom: 0;
+}
+
+.wptr_course-btn:hover,
+.wptr_course-detail .comments input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #a02e0b 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #a02e0b 0, #c83b0e 100%);
+    color: #fff;
+}
+
+.wptr_course-detail .comments form#commentform>p+label {
+    margin: 5px 0;
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+}
+
+.wptr_course-detail .wpcf7-form .label label,
+.wptr_course-detail .comment-form p label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+}
+
+.wptr_content-section .wptr_description p {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
+    color: #525252 !important;
+    margin: 0 0 20px 0px;
+}
+
+.wptr-rud-training-pg .course_features ul.course_features_list li {
+    margin-bottom: 12px;
+}
+
+.wptr-rud-training-pg .course_features ul.course_features_list {
+    margin-bottom: 20px;
+}
+
+#training_course_enrol_now.wptr_course-btn,
+.wptr-rud-training-pg#training_course_name .wptr_course-detail #commentform .form-submit input[type="submit"] {
+    padding: 8px 12px;
+    height: auto;
+}
+
+.wptr-rud-training-pg#training_course_name .comment-reply-link svg.icon.icon-mail-reply {
+    display: none;
+}
+
+.wptr-rud-training-pg .wptr_share-section {
+    float: right;
+    margin-top: 16px;
+}
+
+.wptr-rud-training-pg .wptr_share-section h6 {
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.wptr-rud-training-pg .wptr_share-section ul,
+.wptr-rud-training-pg .curriculum_course_sec ul {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wptr-rud-training-pg .wptr_share-section ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.wptr-rud-training-pg .wptr_share-section ul li:last-child {
+    margin-right: 0px;
+}
+
+.wptr-rud-training-pg .wptr_icon-width {
+    width: 32px;
+    display: block;
+    height: 32px;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.wptr-rud-training-pg .wptr_icon-width img {
+    height: auto;
+    max-width: 100%;
+    display: inherit;
+}
+.wptr-rud-training-pg .wptr_icon-width.rdtr-google-icon {
+    padding: 7px;
+}
+.wptr-rud-training-pg .wptr_course-detail {
+    padding: 30px 30px;
+}
+
+.wptr-rud-training-pg  .wptr_course-duration {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.wptr_content-section p,
+.wptr-rud-training-pg#my-course-modules_page p,
+.wptr-rud-training-pg#my-course_module_detail p,
+.wptr-rud-training-pg#mycourse-top table.rdtr-table-user-trnx,
+.wptr-rud-training-pg p{
+    font-size: 13px !important;
+}
+
+.wptr-rud-training-pg .wptr_my-course {
+    margin-bottom: 10px;
+}
+
+.wptr-rud-training-pg figure {
+    margin: 0em 0 !important;
+}
+
+
+/*08-31-2018*/
+
+.wptr-rud-training-pg .curriculum_course_sec .curriculum_topbar {
+    margin: 0 0 10px 0;
+}
+
+.wptr-rud-training-pg .c_mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wptr-rud-training-pg  .curriculum_accordion_list {
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.wptr-rud-training-pg  .d-block,
+.wptr-d-block {
+    display: block !important;
+}
+
+.wptr-rud-training-pg .line-1 {
+    line-height: 1;
+}
+
+.wptr-rud-training-pg .line-1-2 {
+    line-height: 1.2;
+}
+
+.d-flex,
+.wptr-rud-training-pg .wptr-d-flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wptr-rud-training-pg .curriculum_accordion_list .curriculum_accordion_icon {
+    padding-right: 5px;
+}
+
+.wptr-rud-training-pg .align_v_center {
+    align-items: center;
+}
+
+.wptr-rud-training-pg .curriculum_accordion_list .wpl_module_head {
+    padding: 12px 15px;
+}
+
+.wptr-rud-training-pg .curriculum_accordion_list .inner_content_list {
+    padding: 15px 0px;
+    background: #fff;
+}
+
+.wptr-rud-training-pg .curriculum_course_sec .right_inner_con {
+    margin-left: auto;
+    width: 22%;
+    display: flex;
+}
+.wptr-rud-training-pg .curriculum_accordion_list .inner_content_list .chapter_list .lfet_title {
+    padding-left: 15px;
+}
+
+.wptr-rud-training-pg .w-100 {
+    width: 100%;
+}
+
+.wptr-rud-training-pg .curriculum_course_sec .right_inner_con .text_two {
+    margin-left: auto;
+}
+
+.wptr-rud-training-pg .curriculum_course_sec .curriculum_topbar .right_con_two {
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.wptr-rud-training-pg .curriculum_course_sec .wptr_course-duration.right_con {
+    width: 23%;
+}
+
+.wptr-rud-training-pg .curriculum_accordion_list .inner_content_list .chapter_list:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+
+/*Here comment area start*/
+
+.wptr_content-section #comments p.stars .dashicons-star-filled {
+    color: #ffc107;
+}
+
+.wptr-rud-training-pg .comments-area .form-submit input[type="submit"] {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    border-color: #cf3e12;
+    padding: 0.7rem 1.5rem;
+    font-size: 13px;
+    border-radius: 0.3rem;
+    visibility: visible;
+}
+.wptr-rud-training-pg .comments-area .form-submit{
+    margin-right: 0;
+}
+.wptr-rud-training-pg .comments-area .form-submit:before{
+    display: none;
+}
+
+.wptr-rud-training-pg .course_features {
+    display: block;
+    width: 100%;
+}
+
+.wptr-rud-training-pg .course_features ul.course_features_list,
+.wptr-rud-training-pg .course_features ul.course_features_list li {
+    list-style: none;
+}
+
+.wptr-rud-training-pg .course_features ul.course_features_list li {
+    display: flex;
+    align-items: center;
+}
+
+.wptr-rud-training-pg .course_features ul.course_features_list li i.material-icons {
+    font-size: 16px;
+}
+
+.wptr-rud-training-pg .course_features ul.course_features_list li h5.course_features_sub_h {
+    margin: 0 0px 0 8px;
+    padding-top: 0;
+    font-weight: 400;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #212529;
+    font-size: 14px;
+
+}
+
+.wptr_course-detail .comment-section #respond h3 {
+    font-weight: 400;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 20px 0 0 0;
+    border: none;
+    margin: 0 0 5px 0;
+}
+
+.wptr_course-detail .comment-section #respond label {
+    display: inline-block;
+}
+
+.wptr-rud-training-pg .accord_innercon_title_bar .right_titles,
+.wptr-rud-training-pg .accord_innercon_title_bar .right_titles a.total_exercise {
+    margin-left: auto;
+    color: #7b7b7b;
+}
+
+.wptr-rud-training-pg .accord_innercon_title_bar .right_titles {
+    width: 22%;
+}
+
+.wptr-rud-training-pg .accord_innercon_title_bar .accord_con_main {
+    margin: 10px 0;
+}
+
+.wptr-rud-training-pg  #curriculum-accordions .curriculum_accordion .accord_con_main {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+    color: #525252 !important;
+}
+
+.wptr-rud-training-pg  .curriculum_accordion_list .inner_content_list .chapter_list span.lfet_title {
+    padding-left: 15px;
+}
+
+
+/*silck slider*/
+
+.wptr_categories-section .slick-list.draggable .slick-track {
+    margin: 10px auto 10px 10px;
+}
+
+.wptr_description-slider .slick-track .slick-slide p.silk.slider_connt {
+    font-weight: normal;
+    color: #000;
+    line-height: normal;
+    height: 35px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    transition: all ease-in 0.3s;
+}
+.wptr_description-slider .slick-slide .wptr_a-card h3.wptr_mtop-0{
+    transition: all ease-in 0.3s;
+}
+.wptr_description-slider .slick-track .slick-slide.slick-current .silk.slider_connt,
+.wptr_description-slider .slick-slide .wptr_a-card:hover .silk.slider_connt{
+    color: #fff;
+}
+
+.wptr_description-slider .slick-track .slick-slide .slick_inner-containner.wptr_a-card {
+    min-width: 100%;
+    text-decoration: none;
+}
+
+.wptr_description-slider-inner .slick-track .wptr_a-card .total-sections,
+.wptr_description-slider-inner .slick-track .slick-slide .wptr_a-card .total-sections+.total-hours {
+    width: 100%;
+    float: left;
+}
+
+.wptr_description-slider-inner .slick-track .slick-slide .rdtr-exe-area {
+    padding: 20px 0px;
+    float: left;
+}
+
+.wptr-rud-training-pg  .bg-dark-gray {
+    background-color: #e9edf0;
+}
+
+.wptr-rud-training-pg  .bg-light-gray {
+    background-color: #f2f3f5;
+}
+
+
+/*09-03-2018*/
+
+.wptr_course-detail .reply:before {
+    content: "\F45A";
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 20px;
+    line-height: inherit;
+    margin-right: 4px;
+}
+
+.wptr-rud-training-pg  ::-moz-selection {
+    /* Code for Firefox */
+    background: #2196F3;
+}
+
+.wptr-rud-training-pg  ::selection {
+    background: #2196F3;
+}
+
+.wptr-rud-training-pg  p {
+    margin-bottom: 10px;
+}
+
+.wptr-rud-training-pg  .comment .comment-author b.fn {
+    text-transform: capitalize;
+}
+
+.wptr-rud-training-pg .comments-area .comment .children .comment article {
+    padding: 10px 0 0 20px;
+}
+
+.wptr_course-description {
+    margin: 40px 0 50px;
+}
+
+.wptr_course-detail .comments-area .comments-title,
+.wptr-rud-training-pg .font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wptr_course-detail #comments h2,
+.wptr_course-detail #comments h3#reply-title
+{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cancel-comment-reply-link {
+    font-weight: 400;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff !important;
+    background: -webkit-linear-gradient(top, #cf3e12 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #cf3e12 0, #c83b0e 100%);
+    padding: 5px 6px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: 1px solid #cf3e12;
+    height: 28px;
+    min-width: 60px;
+    line-height: 16px;
+    clear: both;
+    float: none;
+    display: table;
+    margin: 10px 0 15px;
+}
+
+.wptr_course-detail #comments h2:before {
+    display: none;
+}
+
+.my-course_container_area p {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wptr-rud-training-pg  h1.entry-title,
+.wptr-rud-training-pg  h2.entry-title,
+.wptr-rud-training-pg  h3.entry-title,
+.wptr-rud-training-pg  h4.entry-title,
+.wptr-rud-training-pg  h5.entry-title,
+.wptr-rud-training-pg  h6.entry-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wptr-rud-training-pg  .rdtr-breadcrumb {
+    margin: 0 0 20px 0;
+}
+
+.wptr-rud-training-pg  .font-nomal_icon:before {
+    font-size: 18px;
+}
+
+.wptr_line-clamp-2,
+.wptr_line-clamp-4 {
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.wptr_line-clamp-4 {
+    -webkit-line-clamp: 4;
+}
+
+.wptr-rud-training-pg .installation-md {
+    width: 171px;
+}
+.wptr-rud-training-pg .exercise_slidr .slick-prev,
+.wptr-rud-training-pg .exercise_slidr .slick-next {
+    top: 55%;
+    transform: translateY(-55%);
+    background: #fff;
+    border: 1px solid #969696;
+    border-radius: 50%;
+    line-height: 23px;
+    height: 26px;
+    width: 26px;
+}
+
+.wptr-rud-training-pg .rdtr-single-exercise .slider_heading {
+    margin-bottom: 5px;
+}
+
+.wptr_description-slider .slick-slide .wptr_a-card h5 {
+    transition: all ease-in 0.3s;
+}
+
+.wptr_description-slider .slick-slide.slick-current.slick-active .slick_inner-containner .wptr_p,
+.wptr_description-slider .slick-slide .wptr_a-card:hover h5 {
+    color: #fff;
+}
+
+.wptr-rud-training-pg .curriculum_accordion_list .inner_content_list .chapter_list {
+    padding: 8px 15px 8px 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.wptr-rud-training-pg .padd-x-15,
+.wptr-rud-training-pg .wptr-padd-x-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu ul.wptr_ul {
+    margin: 18px;
+}
+
+.wptr_ml-auto {
+    margin-left: auto;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu ul.wptr_ul li ul {
+    margin-left: 38px;
+}
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu ul.wptr_ul .wptr_list-group-item {
+    padding-right: 6px;
+}
+.wptr_ml-3 {
+    margin-left: 15px;
+}
+
+.wptr_mb-0 {
+    margin-left: 15px;
+}
+
+.wptr-rud-training-pg .my-course-t_bar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #fff;
+}
+
+.wptr-rud-training-pg .my-course_contnet_area {
+    position: relative;
+    padding: 1.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.385rem;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+}
+
+.wptr-rud-training-pg .my-course_container_area {
+    padding: 2.5rem;
+    background: #e5e9ec;
+}
+
+.wptr-rud-training-pg .rdtr-breadcrumb.my-course_page {
+    margin-bottom: 0;
+}
+
+.wptr-rud-training-pg a:focus {
+    outline: none;
+}
+
+.wptr-rud-training-pg#my-course_module_detail .my-course_sidebar .wptr_MainMenu .wptr_list-group-item:active,
+.wptr-rud-training-pg#my-course_module_detail .my-course_sidebar .wptr_MainMenu .wptr_list-group-item:focus,
+.wptr-rud-training-pg#my-course_module_detail .my-course_sidebar .wptr_MainMenu .wptr_list-group-item:hover {
+    color: #fff;
+}
+
+.wptr-rud-training-pg .my-course_contnet_area .title_my_course {
+    font-size: 22px;
+    color: #4a4a4a;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.wptr-rud-training-pg .rdtr-module-anchor-link {
+    position: relative;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .rdtr-down-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    background: #fff;
+    color: #50427b;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0,-50%);
+    z-index: 11;
+    cursor: pointer;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu .wptr_list-group a.wptr_list-group-item span {
+    font-weight: normal;
+    font-size: 13px;
+    color: inherit;
+}
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu .wptr_list-group a.wptr_list-group-item span .read-tick-icon {
+    position: relative;
+    right: 20px;
+}
+.wptr_module-section .my-course_contnet_area .title_my_course {
+    color: #505050;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu .wptr_list-group a.wptr_list-group-item span.rdtr-down-icon {
+    color: #50427b;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .mod-area-section a.wptr_list-group-item.rdtr-mod-sec {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wptr_module-section .my-course_contnet_area .title_my_course,
+.wptr_module-section .my-course_contnet_area .title_my_course+.wptr_cl-md-12 h2 {
+    color: #505050;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.wptr_module-section .my-course_contnet_area .title_my_course+.wptr_cl-md-12 p,
+.wptr_module-section .my-course_contnet_area .title_my_course+.wptr_cl-md-12,
+.wptr-rud-training-pg .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li,
+.wptr-rud-training-pg .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li a {
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.wptr-rud-training-pg#all-courses_top .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li,
+.wptr-rud-training-pg#all-courses_top .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li a {
+    font-size: 16px;
+}
+
+.wptr-rud-training-pg#all-courses_top .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li .mdi-chevron-double-right:before {
+    font-size: 14px;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .wptr_p-0 {
+    padding: 0;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .wptr_list-group>.wptr_list-group-item {
+    padding: 12px 24px;
+}
+
+.wptr-rud-training-pg #wptr_module {
+    height: 100%;
+    overflow-y: auto;
+    position: absolute;
+}
+
+.wptr_list-group-item.rdtr_active .mdi-lock-outline:before {
+    content: "\f340";
+}
+
+#wptr_module .side-course-layer .rdtr-mod-sec span.wptr_pt-2 {
+    margin-left: 5px;
+}
+
+.wptr-rud-training-pg .rdtr_uploaded_files li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 8px;
+}
+
+.wptr-rud-training-pg .rdtr_uploaded_files li a {
+    display: block;
+}
+
+.wptr-rud-training-pg .rdtr_uploaded_files li a+label {
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+    font-size: 13px;
+}
+
+.wptr-rud-training-pg .rdtr_uploaded_files li a .ch-img-upload {
+    padding-bottom: 0;
+}
+
+.wptr-rud-training-pg .rdtr_uploaded_files li a .ch-img-upload {}
+
+.wptr-rud-training-pg .rdtr_uploaded_files {
+    margin: 0 -15px 15px;
+}
+
+.wptr-rud-training-pg .my-course_contnet_area h4.uploaded_title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
+.wptr-rud-training-pg .my-course_contnet_area .wptr_upload_parent {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.wptr-rud-training-pg .my-course_container_area {
+    width: calc(100% - 300px);
+    margin-left: auto;
+}
+
+.wptr-rud-training-pg .my-course_contnet_area .wptr_upload_parent .wptr_course-btn {
+    margin-top: 0;
+}
+
+.wptr-rud-training-pg .my-course_container_area .wptr_h5_5 {
+    color: #000;
+}
+
+
+/*login*/
+
+.wptr-rud-cstm-dialog.ui-dialog .ui-dialog-titlebar,
+.wptr-rud-cstm-dialog.ui-dialog .ui-button.ui-dialog-titlebar-close {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #login-dialog form.ui_login_form,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog form.ui_signup_form {
+    padding-top: 20px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog .ui-button.ui-dialog-titlebar-close {
+    margin: 0;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable .validateTips {
+    display: none;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+    width: 100%;
+    display: inline-block;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #login-dialog .ui_user_label,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog .ui_user_label {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    color: #525252;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable button {
+    margin-top: 15px;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable #login-dialog button.ui_modal_submit,
+.wptr-rud-cstm-dialog.ui-draggable #signup-dialog button.ui_modal_submit {
+    color: #fff;
+    background: #f41242;
+    border: 1px solid #f41242;
+    padding: 7px 32px;
+    border-radius: 30px;
+    line-height: 1.6;
+    font-weight: 600;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable #login-dialog button.ui_modal_submit:hover,
+.wptr-rud-cstm-dialog.ui-draggable #signup-dialog button.ui_modal_submit:hover {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable #login-dialog .ui_user_input,
+.wptr-rud-cstm-dialog.ui-draggable #signup-dialog .ui_user_input {
+    height: 38px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.wptr_course-detail #commentform .comment-form-comment #comment {
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    width: 100% !important;
+    resize: none;
+}
+
+#frmtraininglogin label.error,
+#frmtrainingsignup label.error {
+    color: red;
+    position: relative;
+    top: -15px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog {
+    border-radius: 2px;
+}
+
+.wptr-rud-cstm-dialog .ui-dialog-titlebar {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+
+/*09-04-2018*/
+
+.course_traning_page .wptr_userimg-and-price {
+    align-items: center;
+}
+
+#training-all-courses .course_traning_page .wptr_userimg-and-price .wptr_margin-left-auto {
+    margin-left: auto;
+    color: #7b7b7b;
+    display: flex;
+    align-items: center;
+}
+
+.wptr_content-section.padd-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wptr_column-flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wptr_column-lg-flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+/*
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: .5;
+        -webkit-transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: .5;
+        -webkit-transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+*/
+
+/*checkbox code*/
+
+.wptr-rud-training-pg .rud_check {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: normal;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.wptr-rud-training-pg .rud_check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom checkbox */
+
+.wptr-rud-training-pg .rud_check .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 3px;
+    transform: translateY(-50%);
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.wptr-rud-training-pg .rud_check:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.wptr-rud-training-pg .rud_check input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.wptr-rud-training-pg .rud_check .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.wptr-rud-training-pg .rud_check input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.wptr-rud-training-pg .rud_check .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* Create a custom checkbox */
+
+.wptr-rud-training-pg .rud_check.radio .checkmark {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+
+/* Style the checkmark/indicator */
+
+.wptr-rud-training-pg .rud_check.radio .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+/*question*/
+
+.wptr-rud-training-pg .question {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.wptr-rud-training-pg .fo_question .textarea_rdr {
+    resize: none;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 105px;
+    margin-top: 5px;
+}
+
+.wptr-rud-training-pg #exercise-parent-div .wptr_course-btn {
+    padding: 0px 10px;
+    background: #cf3e12;
+    color: #fff !important;
+    transition: all ease-in 0.2s;
+}
+
+.wptr-rud-training-pg #exercise-parent-div .wptr_course-btn:hover {
+    background: #cf3e12;
+    color: #fff !important;
+}
+
+.wptr-rud-training-pg .question-disable-zone {
+    position: relative;
+}
+
+.wptr-rud-training-pg .question-disable-zone:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(206, 206, 206, 0.03);
+    z-index: 100;
+    cursor: not-allowed;
+}
+
+.wptr-rud-training-pg .ch-file-upd .wptr_list-group-item {
+    background: transparent;
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .ch-file-upd {
+    display: flex;
+    align-items: center;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .ch-file-upd .mdi {
+    color: #998bc7;
+    padding-left: 20px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.wptr-rud-training-pg .my-course_sidebar .ch-file-upd:hover .mdi {
+    color: #fff;
+}
+
+.wptr-rud-training-pg .my-course_sidebar  .wptr_list-group>.wptr_list-group-item .mdi-lock+span.wptr_pt-2 {
+    padding-left: 10px;
+}
+
+.wptr_dasboard-content-area.my-course-dash .wptr_module-section {
+    background: #e5e9ec;
+    position: relative;
+    min-height: 700px;
+}
+
+.wptr_dasboard-content-area.my-course-dash .wptr_module-section:before {
+    content: "";
+    background: #50427b;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+}
+
+
+/*09-05-2018*/
+
+.wptr-rud-training-pg .my-course_sidebar .side-course-layer .rdtr-start-exercise {
+    display: flex;
+}
+
+.wptr-rud-training-pg .my-course_sidebar  .side-course-layer .rdtr-start-exercise .inner_li {
+    display: flex;
+    margin-left: 12px;
+}
+
+
+/*files upload*/
+
+.wptr-rud-training-pg .rdtr_file_upload_btn {
+    display: block;
+    padding: 5px 15px;
+}
+
+.wptr-rud-training-pg .rdtr_active {
+    color: #fff !important;
+}
+
+.wptr-rud-training-pg .my_rdtr_topbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.wptr-rud-training-pg .wptr_mx-xy-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wptr-rud-training-pg .rdtr_file_upload_dilog {
+    display: flex;
+    align-items: center;
+}
+
+.wptr-rud-training-pg .rdtr_file_upload_dilog {
+    display: flex;
+    align-items: center;
+}
+
+.wptr-rud-training-pg .rdtr_file_upload_dilog .wptr_course-btn {
+    margin: 0;
+    margin-left: 0;
+}
+
+.wptr-rud-training-pg .rdtr_file_upload_dilog .rdtr_file_upload_btn {
+    margin-left: auto;
+}
+
+.wptr-rud-training-pg .side-course-layer.wptr_MainMenu {
+    width: 100%;
+}
+
+.wptr_description-slider .slick-slide.slick-current h3.wptr_mtop-0,
+.wptr_description-slider .slick-slide .wptr_a-card:hover h3.wptr_mtop-0 {
+    color: #fff;
+    transition: all ease-in 0.3s;
+}
+
+.wptr_content-section .wptr_course-detail h3.the-title.cmnthdlne_ctmzr,
+.wptr-rud-training-pg .comments-area .comment-respond h3#reply-title {
+    color: #8c8c8c;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+}
+
+.wptr_content-section .wptr_course-detail div#commentcount {
+    border: none;
+}
+
+.wptr_content-section #comments .logged-in-as a,
+.wptr_content-section #comments .logged-in-as {
+    display: none;
+}
+
+.wptr-rud-training-pg .my-course-dash a.wptr_list-group-item {
+    color: #998bc7;
+}
+
+
+/*09-11-2018*/
+
+.wptr-rud-training-pg .comments-area .comment .children .comment #respond,
+.wptr_course-detail .comments-area .comment #respond.comment-respond {
+    display: inline-block;
+    width: 100%;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close {
+    background: transparent;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-draggable .ui-dialog-titlebar {
+    border: none;
+    background: transparent;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close:before {
+    color: transparent;
+    line-height: 30px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-draggable .ui-dialog-titlebar span#ui-id-2 {
+    display: none;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content {
+    background: transparent;
+    box-shadow: none;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #login-dialog,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #signup-dialog {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-dialog-titlebar.ui-widget-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    z-index: 999999;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-dialog-title {
+    display: none;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable .ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close {
+    top: 10px;
+    color: transparent;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content #login-dialog button.ui-dialog-titlebar-close.custome_btn,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content #signup-dialog button.ui-dialog-titlebar-close.custome_btn {
+    position: absolute;
+    background: rgba(221, 221, 221, 0.29);
+    border: none;
+    margin: 0;
+    top: 17px;
+    right: 15px;
+    padding: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content #login-dialog button.ui-dialog-titlebar-close.custome_btn:before,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content #signup-dialog button.ui-dialog-titlebar-close.custome_btn:before {
+    line-height: 1.6;
+    color: #000;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable #login-dialog .already_account {
+    display: inline-block;
+    width: 100%;
+    color: #696969;
+}
+
+.wptr-rud-cstm-dialog.ui-draggable #login-dialog .already_account #rd-training-user-signup,
+.wptr-rud-cstm-dialog.ui-draggable #signup-dialog .already_account #rd-training-user-login {
+    color: #503eea;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #login-dialog,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog {
+    padding: 60px 40px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog .half_width {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #login-dialog .full-witdh,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog .full-witdh {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 25px 0 5px;
+    padding: 0 15px;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #login-dialog label.error,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog label.error {
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    transition: all ease-in 0.4s;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-draggable .ui-dialog-titlebar span#ui-id-1 {
+    display: none;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog #login-dialog .full-witdh .pos_relative,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog .full-witdh .pos_relative,
+.wptr-rud-cstm-dialog.ui-dialog #signup-dialog .half_width .pos_relative {
+    position: relative;
+}
+
+
+/*signup*/
+
+
+/*= input focus effects css
+=========================== */
+
+.wptr-rud-training-pg input::-webkit-input-placeholder,
+.wptr-rud-training-pg input::-moz-input-placeholder,
+.wptr-rud-training-pg textarea::-webkit-input-placeholder,
+.wptr-rud-training-pg textarea::-moz-input-placeholder {
+    color: #a3a3a3 !important;
+}
+
+.wptr-rud-training-pg :focus {
+    outline: none;
+}
+
+.temp-color {
+    color: #a3a3a3 !important;
+}
+
+.effect-2 {
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-2~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    z-index: 9;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+.effect-2:focus~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.wptr-rud-training-pg input:-webkit-autofill,
+.wptr-rud-training-pg input:-webkit-autofill:hover,
+.wptr-rud-training-pg input:-webkit-autofill:focus input:-webkit-autofill,
+.wptr-rud-training-pg textarea:-webkit-autofill,
+.wptr-rud-training-pg textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+.wptr-rud-training-pg select:-webkit-autofill,
+.wptr-rud-training-pg select:-webkit-autofill:hover,
+.wptr-rud-training-pg select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #9d9c9b;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/*= input focus effects css End
+=============================== */
+
+
+/*Ui Dilog Box animation*/
+
+@-webkit-keyframes ui_dilogbox_anim {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes ui_dilogbox_anim {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.ui_dilogbox_anim {
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: ui_dilogbox_anim;
+    animation-name: ui_dilogbox_anim;
+}
+
+
+/*09-17-2018*/
+
+.wptr-rud-training-pg#my-course_module_detail .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li a,
+.wptr-rud-training-pg#my-course_module_detail #wptr_module a.wptr_list-group-item.rdtr-mod-sec,
+.comment-reply-link:hover {
+    box-shadow: none;
+}
+
+.wptr-rud-training-pg#my-course_module_detail #wptr_module a.wptr_list-group-item.rdtr-mod-sec:hover,
+.wptr-rud-training-pg#my-course_module_detail #wptr_module a.wptr_list-group-item.rdtr-mod-sec.rdtr_active {
+    color: #fff;
+}
+
+.wptr-rud-training-pg .wptr_course-btn:focus,
+.wptr-rud-training-pg .wptr_course-detail #commentform .form-submit input[type="submit"]:focus {
+    background: -webkit-linear-gradient(top, #a02e0b 0, #c83b0e 100%);
+    background: linear-gradient(to bottom, #a02e0b 0, #c83b0e 100%);
+    color: #fff;
+}
+
+.wptr-rud-training-pg#my-course_module_detail .rdtr-go-to-my-course a {
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    box-shadow: none;
+    transition: all ease-in-out 0.02s;
+}
+
+.wptr-rud-training-pg#my-course-modules_page ul.rdtr-breadcrumb li,
+.wptr-rud-training-pg#my-course-modules_page ul.rdtr-breadcrumb li a {
+    box-shadow: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wptr-rud-training-pg#my-course-modules_page ul.rdtr-breadcrumb li a:hover {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.wptr-rud-training-pg a,
+.wptr-rud-training-pg a:hover,
+.wptr-rud-training-pg a:focus {
+    box-shadow: none;
+}
+
+.wptr-rud-training-pg#my-course-modules_page .exercise-area,
+.wptr-rud-training-pg#my-course-modules_page .exercise-area .wptr_back-light {
+    background: #fff;
+}
+
+.wptr-rud-training-pg#my-course-modules_page .wptr_description-slider .slick-slide .wptr_a-card h5 {
+    text-transform: none;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.wptr-rud-training-pg#my-course-modules_page .wptr_description-slider .slick-slide.slick-current .wptr_a-card h5,
+.wptr-rud-training-pg#my-course-modules_page .wptr_description-slider .slick-slide .wptr_a-card:hover h5 {
+    color: #fff;
+}
+
+.wptr-rud-training-pg#my-course-modules_page .rdtr-single-exercise .slider_heading a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.wptr-rud-training-pg#my-course-modules_page .exercise-area {
+    background: #d6d6d6;
+    display: inline-block;
+    width: 100%;
+}
+
+.wptr-rud-training-pg#my-course-modules_page #module_exercise_area_1 .wptr_back-light {
+    background: #d6d6d6;
+}
+
+.wptr-rud-training-pg#my-course-modules_page .exercise-area .exercise-not-found {
+    display: inline-block;
+    width: 100%;
+    padding: 30px 15px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px !important;
+}
+
+.wptr-rud-training-pg #comments img.avatar {
+    border-radius: 50%;
+}
+
+.wptr-rud-training-pg .wptr_module-section .my-course_contnet_area .title_my_course.rdtr-course-successful {
+    color: #28a745;
+}
+
+
+/*09-18-2018*/
+
+.text-center {
+    text-align: center;
+}
+
+.wptr-rud-training-pg#training_course_name .my_rdtr_topbar {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+}
+
+.wptr-rud-training-pg#mycourse-top .my_rdtr_topbar,
+.wptr-rud-training-pg#all-courses_top .my_rdtr_topbar {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+
+/**/
+
+.wptr-rud-training-pg#my-course-modules_page .wptr_description-slider .slick-slide .wptr_a-card h5 {
+    margin: 10px 0 !important;
+    padding: 0;
+}
+
+.wptr-rud-training-pg .wptr_description-slider .slick-slide h3.wptr_mtop-0 {
+    margin: 0;
+}
+
+.wptr-rud-training-pg .wptr_description-slider-inner .slick-track .slick-slide .rdtr-exe-area h4.slider_heading {
+    margin-top: 0;
+}
+
+.wptr-rud-training-pg #respond form label {
+    color: #333;
+    display: block;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.wptr-rud-training-pg #respond form .comments-rating .rating-container label {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.wptr-rud-training-pg #respond form .comments-rating .rating-container label:last-child {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+/*09-27-2018*/
+.wptr-rud-training-pg#training_course_name .wptr_right-section {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section .wptr_h3_3.wptr_course-price+.wptr_share-section {
+    margin-top: 0;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section .wptr_h3_3.wptr_course-price+.wptr_share-section .wptr_h6_6 {
+    margin-bottom: 8px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section #payment_frm_dialogbox+.wptr_share-section {
+    margin-left: auto;
+    margin-top: 0;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section #payment_frm_dialogbox+.wptr_share-section .wptr_h6_6 {
+    display: block;
+    margin-bottom: 8px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info {
+    background-color: #343a40;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.wptr-rud-training-pg#training_course_name  .wptr_r-section {
+    margin-bottom: 15px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section .wptr_course-btn {
+    height: 32px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    min-width: 120px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: initial;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section .wptr_course-btn .mdi{
+    line-height: normal;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_course-title {
+    float: left;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: left;
+}
+.wptr-rud-training-pg#training_course_name .wptr_right-section .wptr_course-price,
+.wptr-rud-training-pg#training_course_name .wptr_course-detail h3.wptr_h3_3 {
+    text-align: left;
+}
+.rdtr-published-price-sec .rdtr-course-price.wptr-course-free {
+    font-weight: 600;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+.wptr-rud-training-pg#training_course_name .wptr_r-section.rdtr-rating-sec {
+    width: 85%;
+    display: inline-flex;
+    align-items: center;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_share-section {
+    margin-top: 0;
+    margin-left: auto;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_share-section .wptr_h6_6 {
+    display: flex;
+    margin-bottom: 8px;
+    width: 100%;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-top: 15px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .wptr-left-section-inner-top {
+    display: inline-block;
+    width: 100%;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .auther-image {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .auther-image .auther-image-img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_course-by {
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_course-by .published {
+    font-size: 16px;
+    font-weight: 600;
+}
+.wptr-rud-training-pg#training_course_name .wptr_course-info .auther-image+.display-name {
+    font-size: 16px;
+    padding-left: 6px;
+}
+/*10-01-2018*/
+.wptr-rud-training-pg .rdtr-published-autoher-price-sec{
+    display: flex;
+    -webkit-display:flex;
+}
+.wptr-rud-training-pg .rdtr-published-outer-sec {
+    display: inline-block;
+    width: 60%;
+}
+
+.wptr-rud-training-pg .rdtr-published-sec {
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-training-pg .rdtr-published-sec .autother-name {
+    margin-left: 10px;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.wptr-rud-training-pg .rdtr-published-autoher-price-sec .rdtr-published-date {
+    display: inline-flex;
+    margin-left: auto;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 500;
+    margin:5px 0;
+
+}
+.wptr-rud-training-pg .rdtr-published-price-sec {
+    display: inline-block;
+    width: 15%;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    line-height: normal;
+}
+.wptr-rud-training-pg .rdtr-published-price-sec .rdtr-course-price {
+    font-weight: bold;
+    font-size: 42px;
+}
+.wptr-rud-training-pg .rdtr-published-price-sec .rdtr-course-price i.mdi:before {
+    font-size: 44px;
+    width: 40px;
+    font-weight: 800;
+}
+
+/*10-03-2018*/
+.wptr-rud-training-pg .remove-uploaded-file-icon {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}
+.wptr-rud-training-pg .rdtr_uploaded_files .remove-uploaded-file-icon .rd-icon:before {
+    font-size: 15px;
+    color: #d21414;;
+}
+.wptr-rud-training-pg .rdtr_uploaded_files li a .mdi {
+    color: #9c9c9c;
+}
+.wptr-rud-training-pg .rdtr_uploaded_files li a .uploaded-files-icon-font:before {
+    font-size: 70px;
+    line-height: normal;
+}
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu .wptr_ul .wptr_list-group-item .wptr_ml-auto {
+    margin-left: auto;
+}
+/*10-04-2018*/
+.wptr-rud-training-pg#my-course_module_detail span {
+    margin: 0 !important;
+    display: inline-flex !important;
+    color: #998bc7 !important;
+}
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu ul.wptr_ul .wptr_list-group-item.rdtr_active+.rdtr-chapter-panel .mdi-chevron-down,
+.wptr-rud-training-pg .my-course_sidebar .wptr_MainMenu ul.wptr_ul li.rdtr-ch-sec:hover .rdtr-chapter-panel .mdi-chevron-down{
+    color: #fff !important;
+}
+.wptr-rud-training-pg#my-course_module_detail .side-course-layer.wptr_MainMenu .wptr-mr-sapce {
+    margin-right: 20px;
+}
+.wptr-rud-training-pg#my-course_module_detail .rdtr-module-panel .font-nomal_icon {
+    color: #000 !important;
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+.wptr-rud-training-pg#my-course_module_detail .rdtr-pl.my_rdtr_topbar .wptr_btn-success {
+    display: block !important;
+}
+
+.wptr-rud-training-pg #exercise-parent-div span.ch-correct-answer {
+    color: green !important;
+}
+
+.wptr-rud-training-pg #exercise-parent-div span.rdtr-wrong-answer {
+    color: red !important;
+}
+.wptr-rud-training-pg #exercise-parent-div span.rdtr-see-explanation {
+    color: #23282d !important;
+}
+
+.wptr-rud-training-pg span.rdtr-chapter-panel{
+    padding-right: 10px;
+    right: -10px;
+}
+/*10-09-2018*/
+.wptr-rud-training-pg #training-all-courses .wptr_categories-col .wptr_card-box .card-box-img-top {
+    height: 100%;
+    width: 100%;
+}
+.wptr-rud-training-pg#training_course_name  .my_rdtr_topbar .rdtr-breadcrumb.my-course_page,
+.wptr-rud-training-pg#training_course_name  .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li {
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-training-pg#training_course_name .my_rdtr_topbar .rdtr-breadcrumb i.mdi-chevron-double-right {
+    display: flex;
+}
+.wptr-rud-training-pg#mycourse-top .my_rdtr_topbar .rdtr-breadcrumb.wptr_display-flex li,
+.wptr-rud-training-pg#my-course_module_detail .rdtr-breadcrumb.my-course_page,
+.wptr-rud-training-pg#my-course_module_detail .rdtr-breadcrumb.my-course_page li,
+.wptr-rud-training-pg#my-course-modules_page .rdtr-breadcrumb,
+.wptr-rud-training-pg#my-course-modules_page .rdtr-breadcrumb li {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.wptr-rud-training-pg#mycourse-top .my_rdtr_topbar .rdtr-breadcrumb.wptr_display-flex .wptr_course-btn {
+    margin-top: 0;
+}
+.wptr-rud-training-pg#mycourse-top .my_rdtr_topbar ul.rdtr-breadcrumb li+li:before {
+    padding: 0 6px;
+}
+.wptr-rud-training-pg#my-course-modules_page .rdtr-breadcrumb {
+    padding: 4px 16px;
+}
+.wptr-rud-training-pg#mycourse-top .my_rdtr_topbar .rdtr-breadcrumb.my-course_page{
+    padding: 8px 16px;
+}
+.wptr-rud-training-pg#my-course_module_detail .rdtr-chapter-panel.wptr_px-left {
+    padding-right: 0;
+}
+.wptr-rud-training-pg #my-course-syllabus .wptr_row-section .wptr-module-count{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.wptr-rud-training-pg .wptr_description-slider-inner .slick-track .slick-slide .wptr_sr-number {
+    margin-bottom: 12px;
+}
+
+.wptr-rud-training-pg #exercise-parent-div span.rdtr-right-answer {
+    color: #5a8847 !important;
+}
+/*10-15-2018*/
+.wptr-rud-training-pg#training_course_name .receipt-main {
+    padding: 15px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars {
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars #avg-rting,
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars #total-rting {
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars #stars-view {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars #avg-rting {
+    position: relative;
+    top: 1px;
+}
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars #stars-view .dashicons-star-filled,
+.wptr-rud-training-pg#training_course_name .wptr_rating .stars #stars-view .dashicons-star-half {
+    color: #ffc107;
+}
+.wptr-rud-training-pg#my-course_module_detail #wptr_module .wptr_list-group-item .wptr-mod-text {
+    font-size: 13px;
+    font-weight: 500;
+}
+.wptr-rud-training-pg#my-course_module_detail #wptr_module .wptr_list-group-item .wptr-chapter-text {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.wptr-rud-training-pg #exercise-parent-div .rdtr-question-image-sec{
+    margin-bottom: 10px;
+}
+.wptr-drop-rotate-icons{
+    transition: all ease-in-out 0.3s;
+}
+.wptr-drop-rotate-close-icon{
+    transform: rotate(180deg);
+}
+.wptr-drop-rotate-open-icon{
+    transform: rotate(0deg);
+}
+/*burger menu*/
+.wptr-rud-training-pg #wptr-collapse-burger-menu{
+    width: 32px;
+    height: 22px;
+    position: relative;
+    margin: 0px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu .menu-bar{
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #50427b;
+    border-radius: 20px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu .menu-bar:nth-child(1) {
+    top: 0px;
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu .menu-bar:nth-child(2),
+.wptr-rud-training-pg #wptr-collapse-burger-menu .menu-bar:nth-child(3) {
+    top: 9px;
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu .menu-bar:nth-child(4) {
+    top: 18px;
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu.open .menu-bar:nth-child(1) {
+    top: 9px;
+    width: 0%;
+    left: 50%;
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu.open .menu-bar:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu.open .menu-bar:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.wptr-rud-training-pg #wptr-collapse-burger-menu.open .menu-bar:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+.wptr-rud-training-pg .wptr-table-responsive {
+    display: block;
+    overflow-x: auto;
+}
+.wptr-rud-training-pg .wptr_rating .wptr_mbtm-0 {
+    color: #fff;
+}
+.wptr-rud-training-pg .comment-form input{
+    visibility: hidden;
+}
+.wptr-rud-training-pg .my-course_contnet_area .wptr-rud-ch-title{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.wptr-rud-training-pg .rdtr_file_upload_dilog {
+    margin-bottom: 10px;
+}
+@media (max-width: 979px){
+    .wptr-rud-training-pg .rdtr-published-price-sec .rdtr-course-price.wptr-course-free{
+        font-size: 30px;
+    }
+    .wptr-rud-training-pg .curriculum_accordion_list .wptr_h5_5,
+    .wptr-rud-training-pg .curriculum_course_sec .wptr_h5_5 {
+        font-size: 13px;
+    }
+}
+@media (min-width: 768px){
+    .wptr-rud-training-pg #wptr-collapse-burger-menu{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .wptr-rud-training-pg#my-course_module_detail .wptr_row-section {
+        padding: 10px 0;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_course-detail h3.wptr_h3_3{
+        width: 100%;
+    }
+    .wptr-rud-training-pg#training_course_name .curriculum_course_sec ul .wptr_row-section{
+        padding: 0;
+    }
+    .wptr-rud-training-pg#training_course_name .curriculum_accordion_list .wptr_h5_5, .curriculum_course_sec .accord_innercon_title_bar.d-flex {
+        flex-wrap: wrap;
+    }
+    .wptr-rud-training-pg#training_course_name .curriculum_accordion_list .accord_innercon_title_bar .right_titles {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .wptr-rud-training-pg#training_course_name .curriculum_accordion_list .wpl_module_head {
+        padding: 12px 10px;
+    }
+    .wptr-rud-training-pg  .curriculum_accordion_list .inner_content_list .chapter_list .lfet_title,
+    .wptr-rud-training-pg  #curriculum-accordions .curriculum_accordion .accord_con_main {
+        padding-left: 5px;
+    }
+    .wptr-rud-training-pg .curriculum_course_sec .right_inner_con,
+    .wptr-rud-training-pg .accord_innercon_title_bar .right_titles {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        padding: 0 5px;
+    }
+    .wptr-rud-training-pg  .curriculum_course_sec .wptr_course-duration.right_con {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .wptr-rud-training-pg  .curriculum_course_sec .curriculum_topbar .right_con_two {
+        margin-left: 10px;
+    }
+    .wptr-rud-training-pg .wptr_course-info,
+    .wptr-rud-training-pg .wptr_course-detail {
+        padding: 30px 15px;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_course-title{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_course-info .rdtr-published-price-sec{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .wptr-rud-training-pg .rdtr-published-price-sec .rdtr-course-price.wptr-course-free{
+        font-size: 18px;
+    }
+    .wptr-table-responsive{
+        font-size: 16px;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_r-section.rdtr-rating-sec{
+        width: 100%;
+        flex-wrap: wrap; 
+    }
+    .wptr-rud-training-pg#training_course_name .rdtr-published-autoher-price-sec {
+        display: flex;
+        -webkit-display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_share-section {
+        float: left;
+        margin-top: 12px;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_course-info .wptr_share-section .wptr_h6_6 {
+        justify-content: start;
+        margin-top: 0;
+    }
+    .wptr-rud-training-pg .rdtr-published-sec .autother-name {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .wptr-rud-training-pg .rdtr-published-autoher-price-sec .rdtr-published-date{
+        margin-bottom: 10px;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_r-section.rdtr-rating-sec .wptr_enrolled {
+        display: inline-block;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .wptr-rud-training-pg .curriculum_course_sec .curriculum_topbar {
+        padding: 0;
+    }
+    .wptr-rud-training-pg#training_course_name .wptr_course-detail h3.wptr_h3_3{
+        font-size: 18px;
+    }
+    .wptr-rud-training-pg#training_course_name .rdtr-published-outer-sec {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .wptr-rud-training-pg#training_course_name ul.rdtr-breadcrumb li+li:before {
+        padding: 0 8px;
+    }
+    .wptr-rud-training-pg#training_course_name .my_rdtr_topbar .rdtr-breadcrumb.my-course_page,
+    .wptr-rud-training-pg#training_course_name .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li,
+    .wptr-rud-training-pg#my-course-modules_page .rdtr-breadcrumb {
+        flex-wrap: wrap;
+        line-height: normal;
+    }
+    .wptr_dasboard-content-area{
+        margin: 0px;
+        display: inline-block;
+        width: 100%;
+    }
+    .wptr-rud-training-pg .my-course_container_area {
+        width: 100%;
+        margin-left: 0;
+    }
+    .wptr_dasboard-content-area.my-course-dash .wptr_module-section:before{
+        display: none;
+    }
+    .wptr-rud-training-pg #wptr_module{
+        left: -300px;
+    }
+    .wptr-rud-training-pg .my-course_container_area, 
+    .wptr-rud-training-pg .my-course_container_area .my-course_contnet_area {
+        padding: 20px 15px;
+        height: auto;
+    }
+    .wptr-rud-training-pg #wptr_module.wptr-open-sidebar {
+        left: 0;
+        z-index: 999;
+        transition: all ease-in-out 0.5s;
+    }
+    .wptr_row-section {
+        padding: 0 15px;
+    }
+    .wptr_a-card-body {
+        padding: 1rem; 
+    }
+    .wptr_a-card-body .wptr_row-section{
+        padding: 0 0;
+    }
+    .wptr_course-categorie .wptr_my-course {
+        margin-bottom: 20px;
+    }
+    .wptr-rud-training-pg#mycourse-top .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li:nth-child(2) {
+        margin-right: 10px;
+    }
+    .wptr-rud-training-pg#mycourse-top .my_rdtr_topbar .rdtr-breadcrumb.wptr_display-flex,
+    .wptr-rud-training-pg#my-course_module_detail .rdtr-breadcrumb.my-course_page,
+    .wptr-rud-training-pg#my-course_module_detail .rdtr-breadcrumb.my-course_page li {
+        flex-wrap: wrap;
+    }
+    .wptr-rud-training-pg#mycourse-top .my_rdtr_topbar .rdtr-breadcrumb.wptr_display-flex .wptr_course-btn {
+        margin-top: 0;
+        display: inline-table;
+        float: left;
+        margin-left: 0;
+    }
+    .wptr-rud-training-pg#my-course_module_detail .rdtr-breadcrumb li+li:before{
+            padding: 0px 2px;
+    }
+}
+@media (max-width: 320px){
+    .wptr_module-section .my-course_contnet_area .title_my_course+.wptr_cl-md-12 p,
+    .wptr_module-section .my-course_contnet_area .title_my_course+.wptr_cl-md-12,
+    .wptr-rud-training-pg .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li,
+    .wptr-rud-training-pg .my_rdtr_topbar .rdtr-breadcrumb.my-course_page li a,
+    .wptr-rud-training-pg#my-course-modules_page ul.rdtr-breadcrumb li,
+    .wptr-rud-training-pg#my-course-modules_page ul.rdtr-breadcrumb li a{
+        font-size: 11px;
+    }
+}
+
+
+
+/* ===== December 2021 30 =====*/
+
+@media (min-width: 576px) {
+    #my-course_module_detail ,#mycourse-top,#all-courses_top{
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width: 768px) {
+    #my-course_module_detail ,#mycourse-top,#all-courses_top{
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #my-course_module_detail ,#mycourse-top,#all-courses_top{
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #my-course_module_detail ,#mycourse-top,#all-courses_top{
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    #my-course_module_detail,#mycourse-top ,#all-courses_top{
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.wptr-rud-training-pg .wptr_mx-xy-0{
+    padding: 10px 16px;
+}
+
+.wptr-rud-training-pg#my-course_module_detail #wptr_module a.wptr_list-group-item.rdtr-mod-sec.rdtr_active:focus {
+    background: #5f5091 !important;
+}
+
+ul.wptr_ul, ul.wptr_ul ul {
+    padding-left: 0px;
+}
+
+#all-courses_top {
+    padding: 0px 15px;
+}
+
+.wptr_categories-section #frmSearchCourse.wptr_input-group #btn-search {
+    display: contents;
+}
+
+#mycourse-top .my_rdtr_topbar {
+    padding-top: 0px;
+}
+
+.wptr-rud-training-pg .ch-file-upd .wptr_list-group-item:focus {
+    background: #50427b !important;
+}
+
+
+/*== 2022, 7 January ==*/
+
+div#exercise-parent-div {
+    margin-top: 15px;
+}
+
+p.excercise_paragraph {
+    margin-top: 15px;
+}
+
+div#exercise-parent-div > div > form >label {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.rdtr-youtube-video-player {
+    margin-bottom: 10px;
+}
+

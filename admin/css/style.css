@@ -1,0 +1,763 @@
+/**
+ * Plugin stylesheet
+ * @author  Rudra Innnovative Software 
+ * @package training/admin/css/ 
+ * @version 2.0.0
+ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+img.rd-img-prev-fit {
+    object-fit: contain;
+    height: 300px;
+}
+
+span.u-ex-status.st-success {
+    color: green;
+    font-weight: bold;
+}
+
+label.rd-lbl-bold,
+span.rd-lbl-bold {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+span.rd-lbl-bold {
+    display: block;
+}
+
+.wpl-crumb{
+    background: #80808038;
+    font-weight: bold;
+    border-left-color: #80808038;
+}
+.wptr-rud-notice.notice.notice-success.wpl-crumb {
+    background: #fff;
+    border-color: #1273aa;
+}
+.jquery-notify-bar.error{
+    color: #d00;
+    background-color: #fdd;
+    padding: 18px 0px 18px 2px;
+    border-left-color: transparent;
+    margin: 0;
+}
+
+.wpl-anchor{
+    text-decoration: none;
+}
+
+.wp-rd-open-file-dialog{
+    text-decoration: underline !important;
+}
+
+#post label.error{
+    color:red;
+    display: block;
+}
+
+.wptr-rud-img.course-image-size{
+    width: 65px ;
+}
+
+.ex-add{
+    padding: 4px;
+    background: #80808014;
+    border: 1px dotted #80808033;margin-top: 10px;
+}
+
+.lbl-ex-para{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lbl-ex-bold{
+    font-weight: bold;
+}
+
+.ex-btn{
+    float: right;
+}
+
+.wptr-rud-training-pg #show-img-prev {
+    display: block;
+    padding: 17px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    z-index: 1;
+    width: 240px;
+    height: 120px;
+    /*border: 2px solid #000;*/
+}
+.wptr-rud-training-p #show-img-prev .course-img-prev {
+    position: absolute;
+    /*border: 2px solid #fff;*/
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+/*here*/
+.wptr-rud-training-pg#admin_mail-training-settings.training-settings-panel {
+    width: 100%;
+    min-height: 400px;
+    padding: 0 15px;
+    clear: both;
+    margin: 10px 0;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings {
+    background: #fff;
+    padding: 15px 20px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .heading_setting {
+    margin: 0 0 25px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .training-settings_image {
+    float: left;
+    width: 30%;
+    padding: 15px 0 20px; 
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_fields {
+    float: left;
+    width: 70%;
+    padding: 20px 0 0px;
+    position: relative;
+    margin-top: 45px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .training-settings_image h2.txt-heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-top: 0px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .training-settings_image .button.wpl-upload-image {
+    margin: 10px 0;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .training-settings_image #show-img-prev {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    background: #f7f7f7;
+    border: 2px #b7b7b7 dashed;
+    border-radius: 2px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .training-settings_image #show-img-prev .course-img-prev {
+    transform: translate(-50%, -50%) scale(0.8);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings  #frm-settings  .txt-training-shortcode,
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings  #frm-settings  .select-training-select {
+    display: block;
+    width: 100%;
+    height: 36px;
+    margin: 6px 0 2px;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 4px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_select {
+    float: left;
+    padding: 8px 15px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_select .inner_select {
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_select .inner_select input.select-training-check {
+    margin: 2px 8px 0 0;
+}
+
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .email_setting_sub_btn {
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: right;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top: 1px dashed #ddd;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_select label.dis-comment {
+    display: block;
+    margin-bottom: 5px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .notice.notice-warning,
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings form#frm-settings  {
+    margin: 0;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .notice.notice-warning {
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.08);
+}
+a.wpl-user-progress{
+    float: right;
+    margin-top: -5px !important;
+}
+
+.wptr-rud-training-pg #frm-settings{
+    margin-left: 17px;
+}
+
+.wptr-rud-training-pg .wpl-settings h2{
+    font-size: 1.7em;
+}
+
+.wptr-rud-training-pg .wpl-settings{
+    padding: 4px 1px 1px 21px;
+}
+
+.wptr-rud-wpl-processing:before{
+    background: rgba(0, 0, 0, 0.55) url('loading.gif') no-repeat 50% 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    content: "";
+    z-index: 99999999;    
+    height: 100%;
+    width: 100%;      
+} 
+.wptr-rud-wpl-processing {    
+    position: relative;    
+}
+
+.wptr-rud-fea .course-feature-txt{
+    padding: 3px 8px;
+    font-size: 1.2em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 90%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+.wptr-rud-fea .course-btn-add-more{
+    margin-top:10px !important;
+}
+
+.wptr-rud-fea .remove-features-list{
+    font-size: 20px;
+}
+.wptr-rud-fea .remove-features-list:hover{
+    cursor: pointer;
+    color:red;
+}
+.wptr-rud-fea .single-feature-div{
+    margin-top:4px;
+}
+
+.wptr-rud-cstm-dialog .ui-dialog-titlebar{
+    background: #6e6b6b4f;
+    border-bottom: 1px solid #dfdfdf;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 0 36px 0 16px;
+}
+/*09-06-2018*/
+.rdtr_dialog_listing .file_li_st {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rdtr_dialog_listing .file_li_st  a.file_anc_st {display: block;margin-left: 28px;}
+
+.rdtr_dialog_listing .file_li_st .file_seq_no {
+    display: inline-block;
+    float: left;
+}
+.wptr-rud-cstm-dialog.ui-draggable .ui-dialog-titlebar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.wptr-rud-cstm-dialog.ui-draggable .ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close {
+    top: 10px;
+}
+/*modal*/
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.wptr-disable-btn .dashicons{top: 4px; position: relative;} .wptr-button-section { margin: 15px 0; } .wptr-boxmargin{margin-bottom: 15px;} .wptr-boxpad{margin: 0 15px; padding: 0 10px;}
+/*Ui Dilog Box animation*/
+@-webkit-keyframes ui_dilogbox_anim {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes ui_dilogbox_anim {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+.ui_dilogbox_anim {
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: ui_dilogbox_anim;
+    animation-name: ui_dilogbox_anim;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget #course-files-dialog,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #exercise-files-dialog {
+    z-index: 100102;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,.3);
+    border-radius: 2px;
+    padding: 0;
+    height: auto !important;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #course-files-dialog .rdtr-send-survey-topbar,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #exercise-files-dialog .rdtr-send-survey-topbar{
+    display: flex;
+    align-items: center;
+    background: #ddd;
+    padding: 12px 15px 0;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #course-files-dialog .rdtr_modal_clsoe_btn,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #exercise-files-dialog .rdtr_modal_clsoe_btn{
+    margin-left: auto;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #course-files-dialog .rdtr_modal_clsoe_btn,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #exercise-files-dialog .rdtr_modal_clsoe_btn {
+    margin-left: auto;
+    left: 7px;
+    position: relative;
+    top: -5px;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget #course-files-dialog #wpl-dialog-message,
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget #exercise-files-dialog #user-exercise-status {
+    margin-top: 0;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget #exercise-files-dialog #user-exercise-status{
+    margin-bottom: 0;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #course-files-dialog .rdtr-send-survey-topbar .rdtr-send-survey-head {
+    margin: 0 0 10px 0;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #course-files-dialog .rdtr_dialog_listing {
+    padding: 10px 15px 25px;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content #exercise-files-dialog .rdtr-send-survey-topbar{
+    padding-top: 0px;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget #exercise-files-dialog #user-exercise-status .rdtr_modal_clsoe_btn {
+    top: 0px;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget #exercise-files-dialog #user-exercise-status .rdtr-survey-content {
+    padding: 0 15px 25px;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-dialog-titlebar.ui-widget-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-dialog-title {
+    display: none;
+}
+.wptr-rud-cstm-dialog.ui-draggable .ui-dialog-titlebar .ui-button.ui-widget.ui-dialog-titlebar-close {
+    top: 40px;
+    color: transparent;
+    right: 28px;
+}
+.fix-exercise-bar-admin{
+    position: fixed;
+    top: 19px;
+    background: #ffffff;
+    width: calc(100% - 500px);
+    left: 20px;
+    padding: 6px 15px;
+    z-index: 99;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin-left: 160px;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+/*09-26-2018*/
+#dd-exercise-sections .ex-add.ex-section-sort {
+    padding: 20px 15px;
+}
+#dd-exercise-sections .ex-add .para-gallery .btn-upload-gallery {
+    margin: 5px 0 10px;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .rdtr-paragraph-tinymce {
+    width: 100%;
+    resize: none;
+    height: 140px;
+    margin: 20px 0 0;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .rdb_upload_file_ex {
+    margin-left: 5px;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .para-youtube input[type="url"] {
+    margin-left: 10px;
+}
+#dd-exercise-sections .ex-add.ex-section-sort input[type="text"] {
+    box-shadow: none;
+    border-radius: 4px;
+    height: 32px;
+    min-width: 300px;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .lbl-ex-bold {
+    width: 110px;
+    float: left;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .add-poll-choice li {
+    margin: 0;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .lbl-ex-para {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+/*09-27-2018*/
+#dd-exercise-sections .ex-add.ex-section-sort .add-poll-choice-cont, 
+#dd-exercise-sections .ex-add.ex-section-sort .add-mcq-choices,
+#dd-exercise-sections .ex-add.ex-section-sort .add-single-choice {
+    display: inline-block;
+    width: 100%;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .add-poll-choice .ul-add-option,
+#dd-exercise-sections .ex-add.ex-section-sort .add-mcq-choices .ul-add-option,
+#dd-exercise-sections .ex-add.ex-section-sort .add-single-choice .ul-add-option {
+    float: left;
+    clear: right;
+    margin-top: 0;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .add-poll-choice .add-more-poll-option,
+#dd-exercise-sections .ex-add.ex-section-sort .add-mcq-choices .add-more-chk-option,
+#dd-exercise-sections .ex-add.ex-section-sort .add-single-choice .add-more-radio-option {
+    display: block;
+    float: none;
+    clear: both;
+    margin: 20px 0px 30px 110px;
+    top: 5px;
+    position: relative;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .exercise-textarea {
+    width: calc(100% - 110px);
+    box-shadow: none;
+    padding: 10px;
+    height: 120px;
+    resize: none;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .exercise-textarea.rdtr-paragraph-tinymce {
+    width: 100%;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .add-poll-choice .ul-add-option li {
+    margin-bottom: 8px;
+}
+#dd-exercise-sections .ex-add.ex-section-sort .add-poll-choice .add-more-poll-option {
+    margin-top: 0;
+}
+.wptr-rud-back-btn.arrow-back-admin-icon {
+    transform: rotate(180deg);
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 2px;
+}
+/*09-28-2018*/
+.wptr-rud-info#course-info,
+.rdtr-course-info .data-table-area {
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 25px 12px;
+}
+.wptr-rud-info#course-info .inner-info-content .course-heading {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.wptr-rud-info#course-info .inner-info-content .course-detail {
+    display: flex;
+    align-items: center;
+}
+.wptr-rud-info#course-info .inner-info-content .course-detail .user-enrolled{
+    margin: 0;
+    margin-left: auto;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.wptr-rud-info#course-info .inner-info-content .course-detail .user-enrolled .user{
+    font-weight: 600;
+}
+.wptr-rud-info#course-info .inner-info-content .course-detail .course {
+    font-size: 15px;
+    margin: 0;
+    color: #5f5f5f;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.wptr-rud-info#course-info .inner-info-content .course-detail .course-name{
+    font-weight: 600;
+}
+
+/*table*/
+.rdtr-course-info .data-table-area table th.sorting_asc,
+.rdtr-course-info .data-table-area table th.sorting {
+    text-align: left;
+    padding-left: 10px;
+
+}
+.rdtr-course-info .data-table-area table th.sorting_asc{
+    width: 50px !important; 
+}
+.rdtr-course-info table.dataTable.display tbody tr.odd>.sorting_1{
+    background-color: #f9f9f9;
+}
+
+.rdtr-course-info table.dataTable.display tbody tr.even>.sorting_1 {
+    background-color: #fff;
+}
+.data-table-area .datatable-heading,
+.rdtr-course-info .datatable-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3d3d3d;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+/*table pagination*/
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0.755em;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next{
+    font-size: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #1885ba;
+    color: #fff !important;
+    border-color: #1885ba;
+}
+#rdtr_survey_list.dataTable.display tbody tr td:last-child.dataTables_empty {
+    display: table-cell;
+}
+.rdtr-course-info table.dataTable.display tbody tr.even:hover>.sorting_1 {
+    background-color: #f6f6f6;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next.disabled:hover {
+    background: transparent;
+    color: #666 !important;
+    cursor: auto;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous:before:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:before:hover{
+    background-color: #1885ba; 
+    color: #fff !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous:before,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:before {
+    content: "<";
+    font-size: 14px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:before {
+    content: ">";
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: transparent;
+    text-align: center;
+    padding: 0;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background: #1885ba;
+    color: #fff !important;
+}
+.dataTables_wrapper .display thead th,
+.dataTables_wrapper  thead td,
+.dataTables_wrapper .dataTable.no-footer {
+    border-bottom: 1px solid #dee2e6;
+}
+.wptr-rud-info.data-table-area h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+/*close*/
+wptr-rud-info .chapter-information {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wptr-rud-info .chapter-information .completion {
+    margin-left: auto;
+}
+.wptr-rud-info .chapter-information .text-info {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wptr-rud-info .chapter-information .static-text {
+    color: #5f5f5f;
+}
+.wptr-rud-info .chapter-information .course-score.text-info {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+#rdtr-exercise-content .rdtr-survey-content {
+    margin-top: 20px;
+}
+/*modal*/
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-custome-modal-admin{
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+    padding: 30px 20px;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-custome-modal-admin .rdtr-send-survey-topbar {
+    display: inline-block;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content .ui-custome-modal-admin .ui-dialog-titlebar-close.custome_btn:focus{
+    outline: none;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget.ui-widget-content .ui-custome-modal-admin .rdtr_dialog_listing .file_li_st {
+    padding-bottom: 5px;
+}
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content .ui-custome-modal-admin .ui-dialog-titlebar-close.custome_btn{
+    position: relative;
+    background: rgba(221, 221, 221, 0.29);
+    border: none;
+    margin-left: auto;
+    padding: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+}
+
+.wptr-rud-cstm-dialog.ui-dialog.ui-widget-content .ui-custome-modal-admin .ui-dialog-titlebar-close.custome_btn:before {
+    line-height: 1.6;
+    color: #000;
+}
+.ui-custome-modal-admin .rdtr-send-survey-head {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+.fix-messgae-note{
+    display: block;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: lightblue;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightblue;
+}
+/*10-10-2018*/
+.wptr-rud-training-pg#admin_mail-training-settings.training-settings-panel > h2.heading_setting {
+    font-size: 22px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_select .wptr-teamplate-course .button {
+    display: block;
+    margin: 10px 0;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .wpl-settings .shortcode_select .lbl-ex-bold {
+    display: block;
+    margin-bottom: 5px;
+}
+.wptr-rud-training-pg#admin_mail-training-settings .shortcode_fields .wptr-row-section {
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    padding: 12px 0;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: rgba(236, 236, 236, 0.42);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.02);
+}
+.error_message{
+    color: red;
+}
